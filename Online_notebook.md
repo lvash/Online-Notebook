@@ -1,17 +1,17 @@
-#fdadfa title
+#Amphibian Disease
 
 ### Author: Lauren Ash   
-###Affiliation     
+###Affiliation: University of Vermont    
 
 ## Projects title/descriptions
 
-## Date started:
-## Date end:
+## Date started: 2016-08-01
+## Date end: 
 
 
 # Table of contents (format is Entry:Date. Title)    
 * [Entry 1: 2016-08-01](#id-section1). Primer Design
-* [Entry 2: 2016-6-16](#id-section2). 
+* [Entry 2: 2016-08-01](#id-section2). Adding field pictures
 * [Entry 3:](#id-section3).
 * [Entry 4:](#id-section4).
 * [Entry 5:](#id-section5).
@@ -224,7 +224,10 @@ I used [Oligoanalyzer](https://www.idtdna.com/calc/analyzer) to determine :
 
 ------
 <div id='id-section2'/>
-### Entry 2: 2016-06-16 title 
+### Entry 2: 2016-08-01. Field pictures.
+
+
+![*L. pipiens*](https://cloud.githubusercontent.com/assets/15003012/17306919/7c61d35e-5800-11e6-8d5e-e88d324249f8.jpg)
 ------
 <div id='id-section3'/>
 ### Entry 3:
