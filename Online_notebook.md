@@ -13,7 +13,7 @@ I am interested in ..... and am researching ...
 # Table of contents (format is Entry:Date. Title)    
 * [Entry 1: 2016-08-01](#id-section1). Primer Design
 * [Entry 2: 2016-08-01](#id-section2). Adding field pictures
-* [Entry 3: 2016-08-01](#id-section3). Adding a table
+* [Entry 3: 2016-08-01](#id-section3). 
 * [Entry 4:](#id-section4).
 * [Entry 5:](#id-section5).
 * [Entry 6:](#id-section6).
@@ -76,21 +76,7 @@ I used [Oligoanalyzer](https://www.idtdna.com/calc/analyzer) to determine :
    
 Andrew and I created three primer pairs to detect COI for amphibians.   He kept the defaults, but changed the magnesium concentration to 3.5 and dNTP concentration to 0.4.
 
-
-------
-<div id='id-section2'/>
-### Entry 2: 2016-08-01. Field pictures
-
-I added this picture by opening the Issues link in a new tab and created a new issue.     
-I clicked and dragged the downloaded picture into the new issue and copied the link address.   
-
-
-![*L. pipiens*](https://cloud.githubusercontent.com/assets/15003012/17306919/7c61d35e-5800-11e6-8d5e-e88d324249f8.jpg)
-------
-<div id='id-section3'/>
-### Entry 3: 2016-08-01. Adding a table
-
-|Gene                         |Name        |primer.5..3.                      |amplicon.length |melting.temp |notes                    |reference         |
+|Gene                         |Name        |primer5'-3'.                      |amplicon.length |melting.temp |notes                    |reference         |
 |:----------------------------|:-----------|:---------------------------------|:---------------|:------------|:------------------------|:-----------------|
 |Major capsid protein         |MCP_F_picco |                                  |70              |NA           |                         |                  |
 |Major capsid protein         |MCP_R_picco |                                  |70              |NA           |                         |                  |
@@ -105,6 +91,19 @@ I clicked and dragged the downloaded picture into the new issue and copied the l
 |                             |COI_R_amp1  |AADGCYATRTCNGGBGC                 |143             |NA           |                         |                  |
 |                             |COI_F_amp2  |GAYATRGCHTTYCCYCGAA               |116             |NA           |                         |                  |
 |                             |COI_R_amp2  |TADACWGTTCANCCWGTKCC              |116             |NA           |qPCR - host              |used Geneious     |
+
+------
+<div id='id-section2'/>
+### Entry 2: 2016-08-01. Field pictures
+
+I added this picture by opening the Issues link in a new tab and created a new issue.     
+I clicked and dragged the downloaded picture into the new issue and copied the link address.   
+
+
+![*L. pipiens*](https://cloud.githubusercontent.com/assets/15003012/17306919/7c61d35e-5800-11e6-8d5e-e88d324249f8.jpg)
+------
+<div id='id-section3'/>
+### Entry 3: 2016-08-01. Title
 
 ------
 <div id='id-section4'/>
