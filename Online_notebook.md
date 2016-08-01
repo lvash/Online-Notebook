@@ -76,7 +76,7 @@ I used [Oligoanalyzer](https://www.idtdna.com/calc/analyzer) to determine :
    
 Andrew and I created three primer pairs to detect COI for amphibians.   He kept the defaults, but changed the magnesium concentration to 3.5 and dNTP concentration to 0.4.
 
-|Gene                         |Name        |primer5'-3'.                      |amplicon.length |melting.temp |notes                    |reference         |
+|Gene                         |Name        |primer 5'-3'                      |amplicon.length |melting.temp |notes                    |reference         |
 |:----------------------------|:-----------|:---------------------------------|:---------------|:------------|:------------------------|:-----------------|
 |Major capsid protein         |MCP_F_picco |                                  |70              |NA           |                         |                  |
 |Major capsid protein         |MCP_R_picco |                                  |70              |NA           |                         |                  |
