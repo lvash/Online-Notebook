@@ -72,7 +72,10 @@ I used [Oligoanalyzer](https://www.idtdna.com/calc/analyzer) to determine :
 * Tm (melting temperature which is related to annealing temperature)
 * Hairpin formation
 * Self dimer formation
-* Hetero dimer formation
+* Hetero dimer formation   
+   
+Andrew and I created three primer pairs to detect COI for amphibians:   
+
 
 ------
 <div id='id-section2'/>
