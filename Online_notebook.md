@@ -13,7 +13,7 @@ I am interested in ..... and am researching ...
 # Table of contents (format is Entry:Date. Title)    
 * [Entry 1: 2016-08-01](#id-section1). Primer Design
 * [Entry 2: 2016-08-01](#id-section2). Adding field pictures
-* [Entry 3: 2016-08-01](#id-section3). DNA isolation protocol
+* [Entry 3: 2016-08-03](#id-section3). DNA isolation protocol
 * [Entry 4:](#id-section4).
 * [Entry 5:](#id-section5).
 * [Entry 6:](#id-section6).
@@ -105,10 +105,11 @@ I clicked and dragged the downloaded picture into the new issue and copied the l
 <div id='id-section3'/>
 ### Entry 3: 2016-08-03. DNA isolation protocol   
    
-Materials:   
+**Materials:**   
 + Read in table   
    
-General steps for standard salt protocol (Sambrook & Russell 2001):   
+**General steps for standard salt protocol (Sambrook & Russell 2001):**   
+   
 1. Homogenize tissue: take tissue out of 95% ethanoal and place into homogenizing tube with beads and 300 uL cell lysis buffer (100mM NaCl, 100 mM Tris-Cl, 25 mM EDTA, and 0.5%SDS). Quickly centrifuge to bring the tissue down.   
 2. Add 1.5 uL of proteinase K (20mg/mL) into samples and incubate overnight at 37 degrees C. Briefly vortex and spin.      
 3. Briefly vortex and add 100uL of protein precipitate solution (4M Guanidine thiocyanate, 100mM Tris-Cl).   
