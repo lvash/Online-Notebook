@@ -13,7 +13,7 @@ I am interested in ..... and am researching ...
 # Table of contents (format is Entry:Date. Title)    
 * [Entry 1: 2016-08-01](#id-section1). Primer Design
 * [Entry 2: 2016-08-01](#id-section2). Adding field pictures
-* [Entry 3: 2016-08-01](#id-section3). 
+* [Entry 3: 2016-08-01](#id-section3). DNA isolation protocol
 * [Entry 4:](#id-section4).
 * [Entry 5:](#id-section5).
 * [Entry 6:](#id-section6).
@@ -103,7 +103,25 @@ I clicked and dragged the downloaded picture into the new issue and copied the l
 ![*L. pipiens*](https://cloud.githubusercontent.com/assets/15003012/17306919/7c61d35e-5800-11e6-8d5e-e88d324249f8.jpg)
 ------
 <div id='id-section3'/>
-### Entry 3: 2016-08-01. Title
+### Entry 3: 2016-08-03. DNA isolation protocol   
+   
+Materials:   
++ Read in table   
+   
+General steps for standard salt protocol (Sambrook & Russell 2001):   
+1. Homogenize tissue: take tissue out of 95% ethanoal and place into homogenizing tube with beads and 300 uL cell lysis buffer (100mM NaCl, 100 mM Tris-Cl, 25 mM EDTA, and 0.5%SDS). Quickly centrifuge to bring the tissue down.   
+2. Add 1.5 uL of proteinase K (20mg/mL) into samples and incubate overnight at 37 degrees C. Briefly vortex and spin.      
+3. Briefly vortex and add 100uL of protein precipitate solution (4M Guanidine thiocyanate, 100mM Tris-Cl).   
+4. Centrifuge samples at 13,000 rpm for 5 minutes and **repeat when protein pellet is not tight**.   
+5. Transfer supernatant into new eppendorf tube and precipitate DNA by adding 300uL of 100% isopropanol. Invert four times.   
+6. Centrifuge samples at 13,000 rpm for 5 minutes and discard supernatant.   
+7. Wash the DNA by adding 300uL of **COLD** 70% ethanol and centrifuge at 13,000 rpm for 5 minutes.  
+8. Discard supernatant and let air dry.   
+9. Resuspend the DNA into 30-50uL of nuclease-free water.    
+10. Quantify the concentration with NanoDrop.   
+11. Dilute the amount of DNA using nuclease-free water to between 5 and 10ng/uL
+   
+
 
 ------
 <div id='id-section4'/>
