@@ -129,8 +129,8 @@ I clicked and dragged the downloaded picture into the new issue and copied the l
 ### Entry 4: 2016-08-31. Field collection protocol   
    
 **Sites**   
-+18 total sites around the Champlain Basin were visited every other week.   
-+3 sites were visted per day for 6 days in a row   
++ 18 total sites around the Champlain Basin were visited every other week.   
++ 3 sites were visted per day for 6 days in a row   
    
 |Site.name                  |Site.letter |Town             | Latitude| Longitude|
 |:--------------------------|:-----------|:----------------|--------:|---------:|
