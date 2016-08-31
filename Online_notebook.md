@@ -132,6 +132,7 @@ I clicked and dragged the downloaded picture into the new issue and copied the l
 + 18 total sites around the Champlain Basin were visited every other week.   
 + 3 sites were visted per day for 6 days in a row   
    
+#### **Coordinates Table:**      
 |Site.name                  |Site.letter |Town             | Latitude| Longitude|
 |:--------------------------|:-----------|:----------------|--------:|---------:|
 |Berlin Pond                |A           |Berlin           | 44.20560| -72.58582|
@@ -153,7 +154,7 @@ I clicked and dragged the downloaded picture into the new issue and copied the l
 |Green Mountain Beaver Pond |Q           |Bristol          | 44.04238| -73.04784|
 |Green Mountain Meadow      |R           |Bristol          | 44.04671| -73.05374|   
    
-**Map**     
+####**Map:**     
 ![finalsitemap](https://cloud.githubusercontent.com/assets/15003012/18140044/d6f746c6-6f81-11e6-8b50-a10a98f94e52.jpeg)  
    
 ------
