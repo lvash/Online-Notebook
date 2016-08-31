@@ -128,7 +128,7 @@ I clicked and dragged the downloaded picture into the new issue and copied the l
 <div id='id-section4'/>
 ### Entry 4: 2016-08-31. Field collection protocol   
    
-**Sites**   
+##**Sites**   
 + 18 total sites around the Champlain Basin were visited every other week.   
 + 3 sites were visted per day for 6 days in a row   
    
