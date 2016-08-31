@@ -4,7 +4,7 @@
 ###Affiliation: University of Vermont    
 
 ## Project description:   
-I am interested in ..... and am researching ...
+I am interested in the factors associated with, and potentially causing, the amphibian disease ranavirus. Ranavirus has not yet been found in the wild throughout the state of Vermont. The only documented instance of the disease in Vermont comes from a New York study in 1968, in which ranavirus was observed in the liver and kidneys of a Northern Leopard frog purchased from a business in Vermont. I aim to determine whether the ranavirus is present in Vermont's natural communities, how it is affecting those communities, how its presence is being affected by different factors, and whether its distribution can be predicted. 
 
 ## Date started: 2016-08-01
 ## Date end: 
@@ -14,7 +14,7 @@ I am interested in ..... and am researching ...
 * [Entry 1: 2016-08-01](#id-section1). Primer Design
 * [Entry 2: 2016-08-01](#id-section2). Adding field pictures
 * [Entry 3: 2016-08-03](#id-section3). DNA isolation protocol
-* [Entry 4:](#id-section4).
+* [Entry 4: 2016-08-31](#id-section4). Field collection protocol
 * [Entry 5:](#id-section5).
 * [Entry 6:](#id-section6).
 * [Entry 7:](#id-section7).
@@ -126,7 +126,34 @@ I clicked and dragged the downloaded picture into the new issue and copied the l
 
 ------
 <div id='id-section4'/>
-### Entry 4:
+### Entry 4: 2016-08-31. Field collection protocol   
+   
+**Sites**   
++18 total sites around the Champlain Basin were visited every other week.   
++3 sites were visted per day for 6 days in a row   
+   
+|Site.name                  |Site.letter |Town             | Latitude| Longitude|
+|:--------------------------|:-----------|:----------------|--------:|---------:|
+|Berlin Pond                |A           |Berlin           | 44.20560| -72.58582|
+|Gillett Pond               |B           |Huntington       | 44.34901| -72.97020|
+|Birds of Vermont Museum    |C           |Huntington       | 44.35012| -73.00695|
+|Delta Park                 |D           |Colchester       | 44.53506| -73.27750|
+|PMRC Vernal Pool           |E           |Underhill        | 44.52511| -72.86521|
+|PMRC Beaver Meadow         |F           |Underhill        | 44.52648| -72.87260|
+|Shelburne Pond             |G           |Shelburne        | 44.37705| -73.16205|
+|Ethan Allen Homestead      |H           |Burlington       | 44.50581| -73.23301|
+|Bolton Beaver Pond         |I           |Bolton           | 44.39917| -72.87772|
+|Little Otter fish impact   |J           |Ferrisburgh      | 44.22680| -73.27738|
+|Little Otter ag impact     |K           |Ferrisburgh      | 44.23104| -73.25469|
+|The Watershed Center       |L           |Bristol          | 44.15527| -73.14139|
+|Dead Creek WMA             |M           |Addison          | 44.07535| -73.35240|
+|Waterbury State Park       |N           |Waterbury Center | 44.38174| -72.72680|
+|Sandbar State Park         |O           |Milton           | 44.62864| -73.23517|
+|Casavant Natural Area      |P           |Winooski         | 44.49017| -73.18063|
+|Green Mountain Beaver Pond |Q           |Bristol          | 44.04238| -73.04784|
+|Green Mountain Meadow      |R           |Bristol          | 44.04671| -73.05374|   
+   
+   
 ------
 <div id='id-section5'/>
 ### Entry 5:
