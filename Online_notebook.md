@@ -15,7 +15,7 @@ I am interested in the factors associated with, and potentially causing, the amp
 * [Entry 2: 2016-08-01](#id-section2). Adding field pictures
 * [Entry 3: 2016-08-03](#id-section3). DNA isolation protocol
 * [Entry 4: 2016-08-31](#id-section4). Field collection protocol
-* [Entry 5:](#id-section5).
+* [Entry 5: 2016-09-14}](#id-section5). MD Syntax
 * [Entry 6:](#id-section6).
 * [Entry 7:](#id-section7).
 * [Entry 8:](#id-section8).
@@ -159,10 +159,21 @@ I clicked and dragged the downloaded picture into the new issue and copied the l
    
 ------
 <div id='id-section5'/>
-### Entry 5: Adding R code to online notebook
+### Entry 5: 2016-09-14. MD Syntax
 
+Adding R chunk
 ```R
 x<-read.csv("test")
+```
+
+Adding image:
+```
+![](image url)
+```
+
+Adding link:
+```
+[words](url)
 ```
 
 ------
