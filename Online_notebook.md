@@ -159,7 +159,12 @@ I clicked and dragged the downloaded picture into the new issue and copied the l
    
 ------
 <div id='id-section5'/>
-### Entry 5:
+### Entry 5: Adding R code to online notebook
+
+```R
+x<-read.csv("test")
+```
+
 ------
 <div id='id-section6'/>
 ### Entry 6:
