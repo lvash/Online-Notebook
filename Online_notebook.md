@@ -17,7 +17,7 @@ I am interested in the factors associated with, and potentially causing, the amp
 * [Entry 4: 2016-08-31](#id-section4). Field collection protocol
 * [Entry 5: 2016-09-14}](#id-section5). MD Syntax
 * [Entry 6: 2016-09-21](#id-section6). Adding elevation and land use layers to BioClim
-* [Entry 7:](#id-section7).
+* [Entry 7: 2016-09-21](#id-section7). Adding index.html to Online Notebook with pandoc
 * [Entry 8:](#id-section8).
 * [Entry 9:](#id-section9).
 * [Entry 10:](#id-section10).
@@ -228,7 +228,12 @@ This is what the layer stack looks like starting with elevation, land cover, and
 
 ------
 <div id='id-section7'/>
-### Entry 7:
+### Entry 7: 2016-09-21. Adding index.html to Online Notebook with pandoc
+   
+Using pandoc, the online_notebook.md file was converted into index.html with the following code in Terminal:
+```
+pandoc Online_notebook.md -f markdown -t html -o index.html
+```
 ------
 <div id='id-section8'/>
 ### Entry 8:
