@@ -16,7 +16,7 @@ I am interested in the factors associated with, and potentially causing, the amp
 * [Entry 3: 2016-08-03](#id-section3). DNA isolation protocol
 * [Entry 4: 2016-08-31](#id-section4). Field collection protocol
 * [Entry 5: 2016-09-14}](#id-section5). MD Syntax
-* [Entry 6:](#id-section6).
+* [Entry 6: 2016-09-21](#id-section6). Adding elevation and land use layers to BioClim
 * [Entry 7:](#id-section7).
 * [Entry 8:](#id-section8).
 * [Entry 9:](#id-section9).
@@ -178,7 +178,51 @@ Adding link:
 
 ------
 <div id='id-section6'/>
-### Entry 6:
+### Entry 6: 2016-09-21. Adding elevation and land use layers to BioClim
+
+To make predicted species distribution maps of Triatoma (and to use with the Liatris project), I wanted to add land cover and elevation layers to the standard 19 bioclim variables. It took some time to get the code right, so I figured I'd document it:
+
+To add an elevation layer of the continents of North and South America, the ASTER Global Digital Elevation Map (.tif file) was downloaded [here](https://asterweb.jpl.nasa.gov/gdem.asp).   
+
+To add a land cover layer of the North and South American continents, the GlobCover 2009 Land Cover Map (.asc file) was downloaded from [here](http://due.esrin.esa.int/page_globcover.php).
+
+The [19 BioClim layers](http://www.worldclim.org/bioclim), were obtained through R with this code:
+
+```R
+library(raster)
+bioclim <- getData("worldclim", var = "bio", res = 10)
+stack(bioclim)
+layers <- crop(bioclim, extent(-170, -33, -60, 75))
+```
+The land cover layer was large (~8GB) so was loaded, given a crs, cropped, resampled to obtain the same resolution as the bioclim layer, and saved as a raster stack with the bioclim variables with this code:
+
+```R
+landuse <- raster("land_cover.asc")
+crs(landuse)<-crs(bioclim)
+landuselayer<-crop(landuse, extent(-170, -33, -60, 75))
+newresLandUse<-resample(landuselayer,layers$bio1,method="ngb")
+layersLU<-stack(newresLandUse, layers)
+writeRaster(layersLU, filename="bioclim-landuse.tif", options="INTERLEAVE=BAND", overwrite=TRUE)
+```
+
+Elevation was loaded, cropped, and resampled to obtain the same resolution as the bioclim/landuse raster stack with this code:
+
+```R
+
+library(raster)
+
+bioclimLU<-stack("bioclim-landuse.tif")
+names(bioclimLU)<-c("landuse","bio1","bio2","bio3","bio4","bio5","bio6","bio7","bio8","bio9","bio10","bio11","bio12","bio13","bio14","bio15","bio16","bio17","bio18","bio19")
+
+elevation<-raster("GDEM-10km-colorized.tif")
+elevationlayer<-crop(elevation, extent(-170, -33, -60, 75))
+newresElevation<-resample(elevationlayer,bioclimLU$bio1,method="ngb")
+layersLUEL<-stack(newresElevation, bioclimLU)
+
+```
+
+
+
 ------
 <div id='id-section7'/>
 ### Entry 7:
