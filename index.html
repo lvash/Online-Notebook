@@ -2,17 +2,17 @@
 <h3 id="author-lauren-ash">Author: Lauren Ash</h3>
 <h3 id="affiliation-university-of-vermont">Affiliation: University of Vermont</h3>
 <h2 id="project-description">Project description:</h2>
-<p>I am interested in ..... and am researching ...</p>
+<p>I am interested in the factors associated with, and potentially causing, the amphibian disease ranavirus. Ranavirus has not yet been found in the wild throughout the state of Vermont. The only documented instance of the disease in Vermont comes from a New York study in 1968, in which ranavirus was observed in the liver and kidneys of a Northern Leopard frog purchased from a business in Vermont. I aim to determine whether the ranavirus is present in Vermont's natural communities, how it is affecting those communities, how its presence is being affected by different factors, and whether its distribution can be predicted.</p>
 <h2 id="date-started-2016-08-01">Date started: 2016-08-01</h2>
 <h2 id="date-end">Date end:</h2>
 <h1 id="table-of-contents-format-is-entrydate.-title">Table of contents (format is Entry:Date. Title)</h1>
 <ul>
 <li><a href="#id-section1">Entry 1: 2016-08-01</a>. Primer Design</li>
 <li><a href="#id-section2">Entry 2: 2016-08-01</a>. Adding field pictures</li>
-<li><a href="#id-section3">Entry 3:</a>.</li>
-<li><a href="#id-section4">Entry 4:</a>.</li>
-<li><a href="#id-section5">Entry 5:</a>.</li>
-<li><a href="#id-section6">Entry 6:</a>.</li>
+<li><a href="#id-section3">Entry 3: 2016-08-03</a>. DNA isolation protocol</li>
+<li><a href="#id-section4">Entry 4: 2016-08-31</a>. Field collection protocol</li>
+<li><a href="#id-section5">Entry 5: 2016-09-14}</a>. MD Syntax</li>
+<li><a href="#id-section6">Entry 6: 2016-09-21</a>. Adding elevation and land use layers to BioClim</li>
 <li><a href="#id-section7">Entry 7:</a>.</li>
 <li><a href="#id-section8">Entry 8:</a>.</li>
 <li><a href="#id-section9">Entry 9:</a>.</li>
@@ -63,21 +63,378 @@
 <h3 id="entry-1-2016-08-01.-primer-design">Entry 1: 2016-08-01. Primer Design</h3>
 <p>I used <a href="https://www.idtdna.com/calc/analyzer">Oligoanalyzer</a> to determine :<br />
 * Tm (melting temperature which is related to annealing temperature) * Hairpin formation * Self dimer formation * Hetero dimer formation</p>
-<p>Andrew and I created three primer pairs to detect COI for amphibians:</p>
+<p>Andrew and I created three primer pairs to detect COI for amphibians. He kept the defaults, but changed the magnesium concentration to 3.5 and dNTP concentration to 0.4.</p>
+<table>
+<colgroup>
+<col width="19%" />
+<col width="8%" />
+<col width="22%" />
+<col width="11%" />
+<col width="9%" />
+<col width="16%" />
+<col width="12%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">Gene</th>
+<th align="left">Name</th>
+<th align="left">primer 5'-3'</th>
+<th align="left">amplicon.length</th>
+<th align="left">melting.temp</th>
+<th align="left">notes</th>
+<th align="left">reference</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Major capsid protein</td>
+<td align="left">MCP_F_picco</td>
+<td align="left"></td>
+<td align="left">70</td>
+<td align="left">NA</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="even">
+<td align="left">Major capsid protein</td>
+<td align="left">MCP_R_picco</td>
+<td align="left"></td>
+<td align="left">70</td>
+<td align="left">NA</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="odd">
+<td align="left">Major capsid protein</td>
+<td align="left">MCP_P_picco</td>
+<td align="left"></td>
+<td align="left">70</td>
+<td align="left">NA</td>
+<td align="left">qPCR - virus</td>
+<td align="left">Picco et al. 2007</td>
+</tr>
+<tr class="even">
+<td align="left">Major capsid protein</td>
+<td align="left">MCP4_mao</td>
+<td align="left"></td>
+<td align="left">531</td>
+<td align="left">NA</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="odd">
+<td align="left">Major capsid protein</td>
+<td align="left">MCP5_mao</td>
+<td align="left"></td>
+<td align="left">531</td>
+<td align="left">NA</td>
+<td align="left">PCR - virus</td>
+<td align="left">Mao et al. 1997</td>
+</tr>
+<tr class="even">
+<td align="left">cytochrome oxidase subunit I</td>
+<td align="left">COI_F_Chmf4</td>
+<td align="left">TYT CWA CWA AYC AYA AAG AYA TCG G</td>
+<td align="left">?</td>
+<td align="left">NA</td>
+<td align="left">PCR - host</td>
+<td align="left"></td>
+</tr>
+<tr class="odd">
+<td align="left"></td>
+<td align="left">COI_R_Chmr4</td>
+<td align="left">ACYTCRGGRTGRCCRAAR AAT CA</td>
+<td align="left">?</td>
+<td align="left">NA</td>
+<td align="left">too large - do not order</td>
+<td align="left">Che et al. 2012</td>
+</tr>
+<tr class="even">
+<td align="left">cytochrome oxidase subunit I</td>
+<td align="left">COI_F_amp3</td>
+<td align="left">CAAACHCCYYTATTTGTSTGATC</td>
+<td align="left">155</td>
+<td align="left">NA</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="odd">
+<td align="left"></td>
+<td align="left">COI_R_amp3</td>
+<td align="left">TANAGAACWGGRTCWCCDCC</td>
+<td align="left">155</td>
+<td align="left">NA</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="even">
+<td align="left"></td>
+<td align="left">COI_F_amp1</td>
+<td align="left">CTYCTHGGHGAYGAYCAAAT</td>
+<td align="left">143</td>
+<td align="left">NA</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="odd">
+<td align="left"></td>
+<td align="left">COI_R_amp1</td>
+<td align="left">AADGCYATRTCNGGBGC</td>
+<td align="left">143</td>
+<td align="left">NA</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="even">
+<td align="left"></td>
+<td align="left">COI_F_amp2</td>
+<td align="left">GAYATRGCHTTYCCYCGAA</td>
+<td align="left">116</td>
+<td align="left">NA</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="odd">
+<td align="left"></td>
+<td align="left">COI_R_amp2</td>
+<td align="left">TADACWGTTCANCCWGTKCC</td>
+<td align="left">116</td>
+<td align="left">NA</td>
+<td align="left">qPCR - host</td>
+<td align="left">used Geneious</td>
+</tr>
+</tbody>
+</table>
 <hr />
 <div id='id-section2'/>
-<h3 id="entry-2-2016-08-01.-field-pictures.">Entry 2: 2016-08-01. Field pictures.</h3>
+<h3 id="entry-2-2016-08-01.-field-pictures">Entry 2: 2016-08-01. Field pictures</h3>
 <p>I added this picture by opening the Issues link in a new tab and created a new issue.<br />
 I clicked and dragged the downloaded picture into the new issue and copied the link address.</p>
 <h2 id="l.-pipiens"><img src="https://cloud.githubusercontent.com/assets/15003012/17306919/7c61d35e-5800-11e6-8d5e-e88d324249f8.jpg" alt="L. pipiens" /></h2>
 <div id='id-section3'/>
-<h2 id="entry-3">### Entry 3:</h2>
+<h3 id="entry-3-2016-08-03.-dna-isolation-protocol">Entry 3: 2016-08-03. DNA isolation protocol</h3>
+<p><strong>Materials:</strong><br />
++ Read in table</p>
+<p><strong>General steps for standard salt protocol (Sambrook &amp; Russell 2001):</strong></p>
+<ol style="list-style-type: decimal">
+<li>Homogenize tissue: take tissue out of 95% ethanoal and place into homogenizing tube with beads and 300 uL cell lysis buffer (100mM NaCl, 100 mM Tris-Cl, 25 mM EDTA, and 0.5%SDS). Quickly centrifuge to bring the tissue down.<br />
+</li>
+<li>Add 1.5 uL of proteinase K (20mg/mL) into samples and incubate overnight at 37 degrees C. Briefly vortex and spin.<br />
+</li>
+<li>Briefly vortex and add 100uL of protein precipitate solution (4M Guanidine thiocyanate, 100mM Tris-Cl).<br />
+</li>
+<li>Centrifuge samples at 13,000 rpm for 5 minutes and <strong>repeat when protein pellet is not tight</strong>.<br />
+</li>
+<li>Transfer supernatant into new eppendorf tube and precipitate DNA by adding 300uL of 100% isopropanol. Invert four times.<br />
+</li>
+<li>Centrifuge samples at 13,000 rpm for 5 minutes and discard supernatant.<br />
+</li>
+<li>Wash the DNA by adding 300uL of <strong>COLD</strong> 70% ethanol and centrifuge at 13,000 rpm for 5 minutes.<br />
+</li>
+<li>Discard supernatant and let air dry.<br />
+</li>
+<li>Resuspend the DNA into 30-50uL of nuclease-free water.<br />
+</li>
+<li>Quantify the concentration with NanoDrop.<br />
+</li>
+<li>Dilute the amount of DNA using nuclease-free water to between 5 and 10ng/uL</li>
+</ol>
+<hr />
 <div id='id-section4'/>
-<h2 id="entry-4">### Entry 4:</h2>
+<h3 id="entry-4-2016-08-31.-field-collection-protocol">Entry 4: 2016-08-31. Field collection protocol</h3>
+<h2 id="sites"><strong>Sites</strong></h2>
+<ul>
+<li>18 total sites around the Champlain Basin were visited every other week.<br />
+</li>
+<li>3 sites were visted per day for 6 days in a row</li>
+</ul>
+<h4 id="coordinates-table"><strong>Coordinates Table:</strong></h4>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Site.name</th>
+<th align="left">Site.letter</th>
+<th align="left">Town</th>
+<th align="right">Latitude</th>
+<th align="right">Longitude</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Berlin Pond</td>
+<td align="left">A</td>
+<td align="left">Berlin</td>
+<td align="right">44.20560</td>
+<td align="right">-72.58582</td>
+</tr>
+<tr class="even">
+<td align="left">Gillett Pond</td>
+<td align="left">B</td>
+<td align="left">Huntington</td>
+<td align="right">44.34901</td>
+<td align="right">-72.97020</td>
+</tr>
+<tr class="odd">
+<td align="left">Birds of Vermont Museum</td>
+<td align="left">C</td>
+<td align="left">Huntington</td>
+<td align="right">44.35012</td>
+<td align="right">-73.00695</td>
+</tr>
+<tr class="even">
+<td align="left">Delta Park</td>
+<td align="left">D</td>
+<td align="left">Colchester</td>
+<td align="right">44.53506</td>
+<td align="right">-73.27750</td>
+</tr>
+<tr class="odd">
+<td align="left">PMRC Vernal Pool</td>
+<td align="left">E</td>
+<td align="left">Underhill</td>
+<td align="right">44.52511</td>
+<td align="right">-72.86521</td>
+</tr>
+<tr class="even">
+<td align="left">PMRC Beaver Meadow</td>
+<td align="left">F</td>
+<td align="left">Underhill</td>
+<td align="right">44.52648</td>
+<td align="right">-72.87260</td>
+</tr>
+<tr class="odd">
+<td align="left">Shelburne Pond</td>
+<td align="left">G</td>
+<td align="left">Shelburne</td>
+<td align="right">44.37705</td>
+<td align="right">-73.16205</td>
+</tr>
+<tr class="even">
+<td align="left">Ethan Allen Homestead</td>
+<td align="left">H</td>
+<td align="left">Burlington</td>
+<td align="right">44.50581</td>
+<td align="right">-73.23301</td>
+</tr>
+<tr class="odd">
+<td align="left">Bolton Beaver Pond</td>
+<td align="left">I</td>
+<td align="left">Bolton</td>
+<td align="right">44.39917</td>
+<td align="right">-72.87772</td>
+</tr>
+<tr class="even">
+<td align="left">Little Otter fish impact</td>
+<td align="left">J</td>
+<td align="left">Ferrisburgh</td>
+<td align="right">44.22680</td>
+<td align="right">-73.27738</td>
+</tr>
+<tr class="odd">
+<td align="left">Little Otter ag impact</td>
+<td align="left">K</td>
+<td align="left">Ferrisburgh</td>
+<td align="right">44.23104</td>
+<td align="right">-73.25469</td>
+</tr>
+<tr class="even">
+<td align="left">The Watershed Center</td>
+<td align="left">L</td>
+<td align="left">Bristol</td>
+<td align="right">44.15527</td>
+<td align="right">-73.14139</td>
+</tr>
+<tr class="odd">
+<td align="left">Dead Creek WMA</td>
+<td align="left">M</td>
+<td align="left">Addison</td>
+<td align="right">44.07535</td>
+<td align="right">-73.35240</td>
+</tr>
+<tr class="even">
+<td align="left">Waterbury State Park</td>
+<td align="left">N</td>
+<td align="left">Waterbury Center</td>
+<td align="right">44.38174</td>
+<td align="right">-72.72680</td>
+</tr>
+<tr class="odd">
+<td align="left">Sandbar State Park</td>
+<td align="left">O</td>
+<td align="left">Milton</td>
+<td align="right">44.62864</td>
+<td align="right">-73.23517</td>
+</tr>
+<tr class="even">
+<td align="left">Casavant Natural Area</td>
+<td align="left">P</td>
+<td align="left">Winooski</td>
+<td align="right">44.49017</td>
+<td align="right">-73.18063</td>
+</tr>
+<tr class="odd">
+<td align="left">Green Mountain Beaver Pond</td>
+<td align="left">Q</td>
+<td align="left">Bristol</td>
+<td align="right">44.04238</td>
+<td align="right">-73.04784</td>
+</tr>
+<tr class="even">
+<td align="left">Green Mountain Meadow</td>
+<td align="left">R</td>
+<td align="left">Bristol</td>
+<td align="right">44.04671</td>
+<td align="right">-73.05374</td>
+</tr>
+</tbody>
+</table>
+<h4 id="map"><strong>Map:</strong></h4>
+<div class="figure">
+<img src="https://cloud.githubusercontent.com/assets/15003012/18140044/d6f746c6-6f81-11e6-8b50-a10a98f94e52.jpeg" alt="finalsitemap" />
+<p class="caption">finalsitemap</p>
+</div>
+<hr />
 <div id='id-section5'/>
-<h2 id="entry-5">### Entry 5:</h2>
+<h3 id="entry-5-2016-09-14.-md-syntax">Entry 5: 2016-09-14. MD Syntax</h3>
+<p>Adding R chunk</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">x&lt;-<span class="kw">read.csv</span>(<span class="st">&quot;test&quot;</span>)</code></pre></div>
+<p>Adding image:</p>
+<pre><code>![](image url)</code></pre>
+<p>Adding link:</p>
+<pre><code>[words](url)</code></pre>
+<hr />
 <div id='id-section6'/>
-<h2 id="entry-6">### Entry 6:</h2>
+<h3 id="entry-6-2016-09-21.-adding-elevation-and-land-use-layers-to-bioclim">Entry 6: 2016-09-21. Adding elevation and land use layers to BioClim</h3>
+<p>To make predicted species distribution maps of Triatoma (and to use with the Liatris project), I wanted to add land cover and elevation layers to the standard 19 bioclim variables. It took some time to get the code right, so I figured I'd document it:</p>
+<p>To add an elevation layer of the continents of North and South America, the ASTER Global Digital Elevation Map (.tif file) was downloaded <a href="https://asterweb.jpl.nasa.gov/gdem.asp">here</a>.</p>
+<p>To add a land cover layer of the North and South American continents, the GlobCover 2009 Land Cover Map (.asc file) was downloaded from <a href="http://due.esrin.esa.int/page_globcover.php">here</a>.</p>
+<p>The <a href="http://www.worldclim.org/bioclim">19 BioClim layers</a>, were obtained through R with this code:</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">library</span>(raster)
+bioclim &lt;-<span class="st"> </span><span class="kw">getData</span>(<span class="st">&quot;worldclim&quot;</span>, <span class="dt">var =</span> <span class="st">&quot;bio&quot;</span>, <span class="dt">res =</span> <span class="dv">10</span>)
+<span class="kw">stack</span>(bioclim)
+layers &lt;-<span class="st"> </span><span class="kw">crop</span>(bioclim, <span class="kw">extent</span>(-<span class="dv">170</span>, -<span class="dv">33</span>, -<span class="dv">60</span>, <span class="dv">75</span>))</code></pre></div>
+<p>The land cover layer was large (~8GB) so was loaded, given a crs, cropped, resampled to obtain the same resolution as the bioclim layer, and saved as a raster stack with the bioclim variables with this code:</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">landuse &lt;-<span class="st"> </span><span class="kw">raster</span>(<span class="st">&quot;land_cover.asc&quot;</span>)
+<span class="kw">crs</span>(landuse)&lt;-<span class="kw">crs</span>(bioclim)
+landuselayer&lt;-<span class="kw">crop</span>(landuse, <span class="kw">extent</span>(-<span class="dv">170</span>, -<span class="dv">33</span>, -<span class="dv">60</span>, <span class="dv">75</span>))
+newresLandUse&lt;-<span class="kw">resample</span>(landuselayer,layers$bio1,<span class="dt">method=</span><span class="st">&quot;ngb&quot;</span>)
+layersLU&lt;-<span class="kw">stack</span>(newresLandUse, layers)
+<span class="kw">writeRaster</span>(layersLU, <span class="dt">filename=</span><span class="st">&quot;bioclim-landuse.tif&quot;</span>, <span class="dt">options=</span><span class="st">&quot;INTERLEAVE=BAND&quot;</span>, <span class="dt">overwrite=</span><span class="ot">TRUE</span>)</code></pre></div>
+<p>Elevation was loaded, cropped, and resampled to obtain the same resolution as the bioclim/landuse raster stack with this code:</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">
+<span class="kw">library</span>(raster)
+
+bioclimLU&lt;-<span class="kw">stack</span>(<span class="st">&quot;bioclim-landuse.tif&quot;</span>)
+<span class="kw">names</span>(bioclimLU)&lt;-<span class="kw">c</span>(<span class="st">&quot;landuse&quot;</span>,<span class="st">&quot;bio1&quot;</span>,<span class="st">&quot;bio2&quot;</span>,<span class="st">&quot;bio3&quot;</span>,<span class="st">&quot;bio4&quot;</span>,<span class="st">&quot;bio5&quot;</span>,<span class="st">&quot;bio6&quot;</span>,<span class="st">&quot;bio7&quot;</span>,<span class="st">&quot;bio8&quot;</span>,<span class="st">&quot;bio9&quot;</span>,<span class="st">&quot;bio10&quot;</span>,<span class="st">&quot;bio11&quot;</span>,<span class="st">&quot;bio12&quot;</span>,<span class="st">&quot;bio13&quot;</span>,<span class="st">&quot;bio14&quot;</span>,<span class="st">&quot;bio15&quot;</span>,<span class="st">&quot;bio16&quot;</span>,<span class="st">&quot;bio17&quot;</span>,<span class="st">&quot;bio18&quot;</span>,<span class="st">&quot;bio19&quot;</span>)
+
+elevation&lt;-<span class="kw">raster</span>(<span class="st">&quot;GDEM-10km-colorized.tif&quot;</span>)
+elevationlayer&lt;-<span class="kw">crop</span>(elevation, <span class="kw">extent</span>(-<span class="dv">170</span>, -<span class="dv">33</span>, -<span class="dv">60</span>, <span class="dv">75</span>))
+newresElevation&lt;-<span class="kw">resample</span>(elevationlayer,bioclimLU$bio1,<span class="dt">method=</span><span class="st">&quot;ngb&quot;</span>)
+layersLUEL&lt;-<span class="kw">stack</span>(newresElevation, bioclimLU)</code></pre></div>
+<p>This is what the layer stack looks like starting with elevation, land cover, and bioclim variables 1-19:<br />
+<img src="https://cloud.githubusercontent.com/assets/15003012/18717271/684dba80-7fed-11e6-8d5b-59f47e91ad0b.jpeg" alt="elevationbio10" /><br />
+<img src="https://cloud.githubusercontent.com/assets/15003012/18717365/a93bad9a-7fed-11e6-9f08-d0f5474716cd.jpeg" alt="bio11bio19" /></p>
+<hr />
 <div id='id-section7'/>
 <h2 id="entry-7">### Entry 7:</h2>
 <div id='id-section8'/>
