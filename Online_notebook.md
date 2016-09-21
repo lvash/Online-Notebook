@@ -221,8 +221,8 @@ layersLUEL<-stack(newresElevation, bioclimLU)
 
 ```
 
-This is what the layer stack looks like starting with elevation, land cover, and bioclim variables 1-19:
-![]("elevationbio10.jpeg")   
+This is what the layer stack looks like starting with elevation, land cover, and bioclim variables 1-19:   
+![elevationbio10](https://cloud.githubusercontent.com/assets/15003012/18717271/684dba80-7fed-11e6-8d5b-59f47e91ad0b.jpeg)
 ![]("bio11bio19.jpeg")   
 
 
