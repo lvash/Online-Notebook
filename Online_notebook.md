@@ -131,7 +131,7 @@ I clicked and dragged the downloaded picture into the new issue and copied the l
 ##**Sites**   
 + 18 total sites around the Champlain Basin were visited every other week.   
 + 3 sites were visted per day for 6 days in a row  
-+ Each site was visited every other week from mid-May to July and one week in mid-August
++ Each site was visited every other week from mid-May to July and one week in mid-August (7 weeks total)
    
 #### **Coordinates Table:**      
 |Site.name                  |Site.letter |Town             | Latitude| Longitude|
