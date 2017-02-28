@@ -18,7 +18,7 @@ I am interested in the factors associated with, and potentially causing, the amp
 * [Entry 5: 2016-09-14}](#id-section5). MD Syntax
 * [Entry 6: 2016-09-21](#id-section6). Adding elevation and land use layers to BioClim
 * [Entry 7: 2016-09-21](#id-section7). Adding index.html to Online Notebook with pandoc
-* [Entry 8:](#id-section8).
+* [Entry 8: 2017-02-27](#id-section8). Setting up a qPCR plate
 * [Entry 9:](#id-section9).
 * [Entry 10:](#id-section10).
 * [Entry 11:](#id-section11).
@@ -237,7 +237,10 @@ pandoc Online_notebook.md -f markdown -t html -o index.html
 ```
 ------
 <div id='id-section8'/>
-### Entry 8:
+### Entry 8: 2017-02-27. Setting up a qPCR plate
+
+Kimble et al: Five serial dilutions of cultured FV3 were used to construct a standard curve.
+
 ------
 <div id='id-section9'/>
 ### Entry 9:
