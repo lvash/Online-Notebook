@@ -19,7 +19,7 @@ I am interested in the factors associated with, and potentially causing, the amp
 * [Entry 6: 2016-09-21](#id-section6). Adding elevation and land use layers to BioClim
 * [Entry 7: 2016-09-21](#id-section7). Adding index.html to Online Notebook with pandoc
 * [Entry 8: 2017-02-27](#id-section8). Setting up a qPCR plate
-* [Entry 9:](#id-section9).
+* [Entry 9: 2017-03-06](#id-section9). Randomly ordering data samples 
 * [Entry 10:](#id-section10).
 * [Entry 11:](#id-section11).
 * [Entry 12:](#id-section12).
@@ -243,7 +243,36 @@ Kimble et al: Five serial dilutions of cultured FV3 were used to construct a sta
 
 ------
 <div id='id-section9'/>
-### Entry 9:
+### Entry 9: 2017-03-06. Randomly ordering data samples 
+
+This is how I created a dataframe from a list
+
+```
+RVSampleNames<-RVRawData$Tube_Number
+sort.students<-function(names,groupsize){
+    
+    ngroups<-42
+    #(length(names)-length(names)%%groupsize)/groupsize 
+    # same as floor(length(names)/groupsize)
+    groups<-rep(1:ngroups,length.out=length(names))
+    split(sample(names),groups)
+}
+
+RandomOrder<-sort.students(names=RVSampleNames)
+df <- data.frame(matrix(unlist(RandomOrder), nrow=1822, byrow=T))
+colnames(df)<-"SampleID"
+Group<-c(rep(1:41,each=44), rep(42,18)) ## I want to 41 groups of 44 individual samples; and 1 group of 18 
+RandOrd<-cbind(Group,df)
+```
+Then, I remembered I may want information about what species and lifestage it is so I wanted to cbind the info to the samples in random order
+```
+info<-cbind(RVRawData$Tube_Number, RVRawData$Species, RVRawData$Life_Stage, RVRawData$Notes)
+colnames(info)<-c("SampleID","Species","LifeStage","Notes") 
+SamplesWithInfo<-merge(RandOrd, info, sort=F) ## I wanted to merge the two and keep the random order the same so set sort=F
+write.csv(SamplesWithInfo, "20170306_Random_Samples_With_Info.csv", row.names=FALSE) #how to create a csv file from data frame
+```
+
+
 ------
 <div id='id-section10'/>
 ### Entry 10:
