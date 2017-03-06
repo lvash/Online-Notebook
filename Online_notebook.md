@@ -271,7 +271,17 @@ colnames(info)<-c("SampleID","Species","LifeStage","Notes")
 SamplesWithInfo<-merge(RandOrd, info, sort=F) ## I wanted to merge the two and keep the random order the same so set sort=F
 write.csv(SamplesWithInfo, "20170306_Random_Samples_With_Info.csv", row.names=FALSE) #how to create a csv file from data frame
 ```
-
+This is what the data look like:
+```
+> head(SamplesWithInfo)
+  SampleID Group                   Species LifeStage     Notes
+1     L6-5     1   Lithobates catesbeianus     adult recapture
+2    B5-14     1 Notophthalmus viridescens     adult          
+3    N4-10     1   Lithobates catesbeianus     adult          
+4     Q3-1     1      Lithobates clamitans metamorph          
+5     N7-9     1        Lithobates pipiens   tadpole          
+6    Q4-16     1 Notophthalmus viridescens     adult 
+```
 
 ------
 <div id='id-section10'/>
