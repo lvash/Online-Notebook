@@ -1,7 +1,7 @@
-#Amphibian Disease
+# Amphibian Disease
 
 ### Author: Lauren Ash   
-###Affiliation: University of Vermont    
+### Affiliation: University of Vermont    
 
 ## Project description:   
 I am interested in the factors associated with, and potentially causing, the amphibian disease ranavirus. Ranavirus has not yet been found in the wild throughout the state of Vermont. The only documented instance of the disease in Vermont comes from a New York study in 1968, in which ranavirus was observed in the liver and kidneys of a Northern Leopard frog purchased from a business in Vermont. I aim to determine whether the ranavirus is present in Vermont's natural communities, how it is affecting those communities, how its presence is being affected by different factors, and whether its distribution can be predicted. 
@@ -20,7 +20,7 @@ I am interested in the factors associated with, and potentially causing, the amp
 * [Entry 7: 2016-09-21](#id-section7). Adding index.html to Online Notebook with pandoc
 * [Entry 8: 2017-02-27](#id-section8). Setting up a qPCR plate
 * [Entry 9: 2017-03-06](#id-section9). Randomly ordering data samples 
-* [Entry 10:](#id-section10).
+* [Entry 10: 2017-03-22](#id-section10). Looking for centrifuges
 * [Entry 11:](#id-section11).
 * [Entry 12:](#id-section12).
 * [Entry 13:](#id-section13).
@@ -283,9 +283,18 @@ This is what the data look like:
 6    Q4-16     1 Notophthalmus viridescens     adult 
 ```
 
-------
-<div id='id-section10'/>
-### Entry 10:
+------   
+<div id='id-section10'/>   
+### Entry 10: 2017-03-22. Looking for centrifuges   
+
+[Eppendorf Microcentrifuge 5424, with Rotary Knobs](https://us.vwr.com/store/product/4830575/eppendorf-microcentrifuges-5424-5424r) $3,573.94; 24 places, 15000 rpm, no temperature range     
+[Eppendorf Microcentrifuge 5424R, with Keypad](https://us.vwr.com/store/product/4830575/eppendorf-microcentrifuges-5424-5424r) $7,260.00; 24 places, 15000 rpm, operation range -10°C to 40°C   
+[Labnet Hermle Z306 Universal Centrifuge; 120V](https://www.coleparmer.com/i/labnet-hermle-z306-universal-centrifuge-120v/1730510?PubID=UX&persist=true&ip=no&gclid=CNzc5NzQ69ICFcOKswodfNkNrg) $3,364.52   
+[Labnet Hermle Z 216 MK-2 High-Capacity Refrigerated Microcentrifuge; 230VAC, 50/60Hz](https://www.coleparmer.com/i/labnet-hermle-z-216-mk-2-high-capacity-refrigerated-microcentrifuge-230vac-50-60hz/1740525?PubID=UX&persist=true&ip=no&gclid=CKnEgaHS69ICFVVXDQodiZwCrg) $6,081.70; 44 places; 15000 rpm; operation range -20 to 40°C   
+[Labnet International C0216-M Microlitre Centrifuge, 120V](http://www.techedu.com/Centrifuges/Labnet-International-C0216-M/?Source=googleshopping&gclid=CLqk8pfT69ICFZCCswoduR8I_Q) $2,313.79; 44 places; 15000 rpm; no temperature range   
+
+
+
 ------
 <div id='id-section11'/>
 ### Entry 11:
