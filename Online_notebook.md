@@ -285,7 +285,7 @@ This is what the data look like:
 
 ------   
 <div id='id-section10'/>   
-### Entry 10: 2017-03-22. Looking for centrifuges   
+###  Entry 10: 2017-03-22. Looking for centrifuges   
 
 [Eppendorf Microcentrifuge 5424, with Rotary Knobs](https://us.vwr.com/store/product/4830575/eppendorf-microcentrifuges-5424-5424r) $3,573.94; 24 places, 15000 rpm, no temperature range     
 [Eppendorf Microcentrifuge 5424R, with Keypad](https://us.vwr.com/store/product/4830575/eppendorf-microcentrifuges-5424-5424r) $7,260.00; 24 places, 15000 rpm, operation range -10°C to 40°C   
@@ -293,7 +293,7 @@ This is what the data look like:
 [Labnet Hermle Z 216 MK-2 High-Capacity Refrigerated Microcentrifuge; 230VAC, 50/60Hz](https://www.coleparmer.com/i/labnet-hermle-z-216-mk-2-high-capacity-refrigerated-microcentrifuge-230vac-50-60hz/1740525?PubID=UX&persist=true&ip=no&gclid=CKnEgaHS69ICFVVXDQodiZwCrg) $6,081.70; 44 places; 15000 rpm; operation range -20 to 40°C   
 [Labnet International C0216-M Microlitre Centrifuge, 120V](http://www.techedu.com/Centrifuges/Labnet-International-C0216-M/?Source=googleshopping&gclid=CLqk8pfT69ICFZCCswoduR8I_Q) $2,313.79; 44 places; 15000 rpm; no temperature range   
 
-
+[Comparison page](http://northamerica.labnetinternational.com/sites/www.labnetinternational.com/files/product-documents/Labnet%20-%20Centrifuge%20selection%20guide%20(2)_15.pdf)   
 
 ------
 <div id='id-section11'/>
