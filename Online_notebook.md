@@ -21,7 +21,7 @@ I am interested in the factors associated with, and potentially causing, the amp
 * [Entry 8: 2017-02-27](#id-section8). Setting up a qPCR plate
 * [Entry 9: 2017-03-06](#id-section9). Randomly ordering data samples 
 * [Entry 10: 2017-03-22](#id-section10). Looking for centrifuges
-* [Entry 11:](#id-section11).
+* [Entry 11: 2017-04-04](#id-section11). Calculating viral copy number
 * [Entry 12:](#id-section12).
 * [Entry 13:](#id-section13).
 * [Entry 14:](#id-section14).
@@ -297,7 +297,25 @@ This is what the data look like:
 
 ------
 <div id='id-section11'/>
-### Entry 11:
+### Entry 11: 2017-04-04. Calculating sample concentration from standard using Ct values      
+
+[Adapted from this site](http://www.protocol-online.org/biology-forums/posts/39444.html)   
+
+1. First calculate the efficiency of your standard amplification by first plotting the log (DNA copy#) on the x-axis and Ct on the y-axis.    
+2. Next, calculate the slope of that line and [convert the slope to efficiency](https://www.thermofisher.com/us/en/home/brands/thermo-scientific/molecular-biology/molecular-biology-learning-center/molecular-biology-resource-library/thermo-scientific-web-tools/qpcr-efficiency-calculator.html). 100% efficiency has a slope of -3.322.     
+3. To obtain the concentration in your samples, we can use this formula: e^(control-sample), where e=efficiency (2 is 100% efficiency), control is the Ct value of standard, and sample is the Ct value of the sample.    
+
+For example, if the Ct value for the standard is 28 and for the sample it is 30 (and at 100% efficiency), we would calculate: 2^(28-30) = 0.25. That is, your sample has 1/4 the concentration of your control.   
+
+### Calculating viral copy number
+* Know the **concentration** of your standard (I used Qubit) and the **length** of the amplicon.   
+* My PCR purified virus sample, amplified from a 97 base pair region in the major capsid protein, has a starting concentration of 4ng.
+* You can calculate DNA copy number [here](http://cels.uri.edu/gsc/cndna.html)   
+The copy number in my undiluted standard is: 3.82 X 10^10
+
+Kimble et al. used four serially diluted standards from 10 to 10^6 viral copies, which corresponds to my log dilutions of -7 to -2, where my slope is -3.476 (93.95% efficiency).  
+
+
 ------
 <div id='id-section12'/>
 ### Entry 12:
