@@ -311,7 +311,7 @@ For example, if the Ct value for the standard is 28 and for the sample it is 30 
 
 ### Calculating viral copy number
 * Know the **concentration** of your standard (I used Qubit) and the **length** of the amplicon.   
-* My PCR purified virus sample, amplified from a 97 base pair region in the major capsid protein, has a starting concentration of 4ng.
+* My PCR purified virus sample, amplified from a 97 base pair region in the major capsid protein, has a starting concentration of 4ng/uL.
 * You can calculate DNA copy number [here](http://cels.uri.edu/gsc/cndna.html)   
 The copy number in my undiluted standard is: 3.82 X 10^10
 
