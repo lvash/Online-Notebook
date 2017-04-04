@@ -66,6 +66,7 @@ I am interested in the factors associated with, and potentially causing, the amp
 
 ------
 <div id='id-section1'/>   
+
 ### Entry 1: 2016-08-01. Primer Design
 
 I used [Oligoanalyzer](https://www.idtdna.com/calc/analyzer) to determine :   
