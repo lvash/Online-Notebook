@@ -22,7 +22,7 @@ I am interested in the factors associated with, and potentially causing, the amp
 * [Entry 9: 2017-03-06](#id-section9). Randomly ordering data samples 
 * [Entry 10: 2017-03-22](#id-section10). Looking for centrifuges
 * [Entry 11: 2017-04-04](#id-section11). Calculating viral copy number
-* [Entry 12:](#id-section12). Dr Schall
+* [Entry 12: 2017-04-04](#id-section12). Meeting with Dr. Schall
 * [Entry 13:](#id-section13).
 * [Entry 14:](#id-section14).
 * [Entry 15:](#id-section15).
@@ -329,8 +329,8 @@ Kimble et al. used four serially diluted standards from 10 to 10^6 viral copies,
 
 ------
 <div id='id-section12'/>
-### Entry 12:
-Meeting with Dr. Schall:   
+
+### Entry 12: 2017-04-03. Meeting with Dr. Schall   
 
 We know nothing about viruses because of how abundant and diverse they are
 especially ecology: poor knowledge; 
@@ -366,18 +366,17 @@ modern ideas are important (math models, phylogeography, spatial)
 
 path diagram with overview of research (arrows unmeasured effects; some labeled; show they're connected!)
 tell coherent story; can add this to proposals (what have already been done); great first paragraph, tell a good story   
-invisasive virus, multi prong approach, amphibians critical for ecosystems
+invasive virus, multi prong approach, amphibians critical for ecosystems
 
 
 [EPA STAR fellowships](https://www.epa.gov/research-fellowships/science-achieve-results-star-graduate-fellowships) - if they still exist!! $125,000  
-National Geographic
+National Geographic   
 [Morris Animal Foundation](http://www.morrisanimalfoundation.org/researchers/wildlife-exotics/)    
-Email Ellen Marsden to see if she has proposals   
+Email Ellen Marsden to see if she has proposals (STAR and Morris?) or any advice     
 
+experimental evolution?? Talk to Brandon   
 
-experimental evolution??   
-
-
+Centennial Woods sites for the summer
 
 
 
