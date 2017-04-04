@@ -22,7 +22,7 @@ I am interested in the factors associated with, and potentially causing, the amp
 * [Entry 9: 2017-03-06](#id-section9). Randomly ordering data samples 
 * [Entry 10: 2017-03-22](#id-section10). Looking for centrifuges
 * [Entry 11: 2017-04-04](#id-section11). Calculating viral copy number
-* [Entry 12:](#id-section12).
+* [Entry 12:](#id-section12). Dr Schall
 * [Entry 13:](#id-section13).
 * [Entry 14:](#id-section14).
 * [Entry 15:](#id-section15).
@@ -330,6 +330,57 @@ Kimble et al. used four serially diluted standards from 10 to 10^6 viral copies,
 ------
 <div id='id-section12'/>
 ### Entry 12:
+Meeting with Dr. Schall:   
+
+We know nothing about viruses because of how abundant and diverse they are
+especially ecology: poor knowledge; 
+great deal known about epi of some viruses (tiny fraction)
+transmission of influence not known    
+my virus is generalist - in general they are specialists (probably)
+how generalist? amphibians may not be even monophyletic; fish are very different (more general than rabies, ebola)   
+robert may
+seminar speakers in pathogen/parasite biology - Peter Hudson (nemotode worms in grouse)    
+
+Intro: 
+viruses, diversity of viruses (why theyre interesting)
+use mathematical models, phylogeny, ecology to address system
+diver
+doing it with this virus because generalist 
+here is my system
+here are my big questions, interacting
+to understand one, maybe understand all four   
+
+low diversity - transmission easy? relates to host/virus characteristics/genetic diversity?   
+genetic diversity of population?   
+
+amphibian microsatellites    
+group populations? $10,000 genetic diversity of host/ difference in prevalence; why did virus not get to this pond??   
+talk to Steve Keller    
+   
+spatial analysis - nearest neighbor pond (even if not sampled) should be data layer   
+Vermont wetlands GIS; get maps   
+
+what's going to be in thesis? 
+
+modern ideas are important (math models, phylogeography, spatial)   
+
+path diagram with overview of research (arrows unmeasured effects; some labeled; show they're connected!)
+tell coherent story; can add this to proposals (what have already been done); great first paragraph, tell a good story   
+invisasive virus, multi prong approach, amphibians critical for ecosystems
+
+
+[EPA STAR fellowships](https://www.epa.gov/research-fellowships/science-achieve-results-star-graduate-fellowships) - if they still exist!! $125,000  
+National Geographic
+[Morris Animal Foundation](http://www.morrisanimalfoundation.org/researchers/wildlife-exotics/)    
+Email Ellen Marsden to see if she has proposals   
+
+
+experimental evolution??   
+
+
+
+
+
 ------
 <div id='id-section13'/>
 ### Entry 13:
