@@ -285,7 +285,8 @@ This is what the data look like:
 
 ------   
 <div id='id-section10'/>   
-###  Entry 10: 2017-03-22. Looking for centrifuges   
+   
+### Entry 10: 2017-03-22. Looking for centrifuges   
 
 [Eppendorf Microcentrifuge 5424, with Rotary Knobs](https://us.vwr.com/store/product/4830575/eppendorf-microcentrifuges-5424-5424r) $3,573.94; 24 places, 15000 rpm, no temperature range     
 [Eppendorf Microcentrifuge 5424R, with Keypad](https://us.vwr.com/store/product/4830575/eppendorf-microcentrifuges-5424-5424r) $7,260.00; 24 places, 15000 rpm, operation range -10°C to 40°C   
@@ -296,7 +297,8 @@ This is what the data look like:
 [Comparison page](http://northamerica.labnetinternational.com/sites/www.labnetinternational.com/files/product-documents/Labnet%20-%20Centrifuge%20selection%20guide%20(2)_15.pdf)   
 
 ------
-<div id='id-section11'/>
+<div id='id-section11'/>   
+
 ### Entry 11: 2017-04-04. Calculating sample concentration from standard using Ct values      
 
 [Adapted from this site](http://www.protocol-online.org/biology-forums/posts/39444.html)   
