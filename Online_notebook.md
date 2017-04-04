@@ -94,7 +94,8 @@ Andrew and I created three primer pairs to detect COI for amphibians.   He kept 
 |                             |COI_R_amp2  |TADACWGTTCANCCWGTKCC              |116             |NA           |qPCR - host              |used Geneious     |
 
 ------
-<div id='id-section2'/>    
+<div id='id-section2'/>  
+
 ### Entry 2: 2016-08-01. Field pictures
 
 I added this picture by opening the Issues link in a new tab and created a new issue.     
@@ -104,6 +105,7 @@ I clicked and dragged the downloaded picture into the new issue and copied the l
 ![*L. pipiens*](https://cloud.githubusercontent.com/assets/15003012/17306919/7c61d35e-5800-11e6-8d5e-e88d324249f8.jpg)
 ------
 <div id='id-section3'/>    
+
 ### Entry 3: 2016-08-03. DNA isolation protocol   
    
 **Materials:**   
@@ -127,6 +129,7 @@ I clicked and dragged the downloaded picture into the new issue and copied the l
 
 ------
 <div id='id-section4'/>    
+
 ### Entry 4: 2016-08-31. Field collection protocol   
    
 ##**Sites**   
@@ -161,6 +164,7 @@ I clicked and dragged the downloaded picture into the new issue and copied the l
    
 ------
 <div id='id-section5'/>   
+
 ### Entry 5: 2016-09-14. MD Syntax
 
 Adding R chunk
@@ -180,6 +184,7 @@ Adding link:
 
 ------
 <div id='id-section6'/>   
+
 ### Entry 6: 2016-09-21. Adding elevation and land use layers to BioClim
 
 To make predicted species distribution maps of Triatoma (and to use with the Liatris project), I wanted to add land cover and elevation layers to the standard 19 bioclim variables. It took some time to get the code right, so I figured I'd document it:
@@ -230,6 +235,7 @@ This is what the layer stack looks like starting with elevation, land cover, and
 
 ------
 <div id='id-section7'/>   
+
 ### Entry 7: 2016-09-21. Adding index.html to Online Notebook with pandoc
    
 Using pandoc, the online_notebook.md file was converted into index.html with the following code in Terminal:
@@ -238,12 +244,14 @@ pandoc Online_notebook.md -f markdown -t html -o index.html
 ```
 ------
 <div id='id-section8'/>   
+
 ### Entry 8: 2017-02-27. Setting up a qPCR plate
 
 Kimble et al: Five serial dilutions of cultured FV3 were used to construct a standard curve.
 
 ------
 <div id='id-section9'/>   
+
 ### Entry 9: 2017-03-06. Randomly ordering data samples 
 
 This is how I created a dataframe from a list
