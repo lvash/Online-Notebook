@@ -23,8 +23,8 @@ I am interested in the factors associated with, and potentially causing, the amp
 * [Entry 10: 2017-03-22](#id-section10). Looking for centrifuges
 * [Entry 11: 2017-04-04](#id-section11). Calculating viral copy number
 * [Entry 12: 2017-04-04](#id-section12). Meeting with Dr. Schall
-* [Entry 13:](#id-section13).
-* [Entry 14:](#id-section14).
+* [Entry 13: 2017-04-08](#id-section13). Elena and Lenski 2003: Evolution Experiments with microorganisms      
+* [Entry 14:](#id-section14). Barrick and Lenski 2013: Genome dynamics during experimental evolution 
 * [Entry 15:](#id-section15).
 * [Entry 16:](#id-section16).
 * [Entry 17:](#id-section17).
@@ -382,7 +382,92 @@ Centennial Woods sites for the summer
 
 ------
 <div id='id-section13'/>
-### Entry 13:
+
+### Entry 13: 2017-04-08. Elena and Lenski 2003: Evolution Experiments with microorganisms   
+
+#### Evolution Experiments with microorganisms: The dynamics and genetic bases of adaptation   
+
+### Introduction   
+T.H. Morgan - began studying fruit flies for experimental evolution   
+Microbes offer powerful systems for experimental evolution   
+**Fitness**: the average reproductive success of a genotype in a particular environment. Often expressed relative to another genotype, such as the ancestor in evolution experiments.   
+
+**Advantages of microorganisms for evolution experiments:**   
+1. Easy to propagate and enumerate   
+2. Reproduce quickly; allows for many generations   
+3. Allow for large populations in small spaces (facilitates experimental replication)   
+4. Can be stored in suspended animation and later revived (direct comparison of ancestral/evolved types)   
+5. Many microbes reproduce asexually (clonality enhances precision of replication)   
+6. Asexuality maintains linkage between genetic marker and genomic background (facilitates fitness measurements)   
+7. Easy to manipulate environmental variables (resources; genetic composition of founders)   
+8. Abundant molecular and genomic data for many species and techniques for genetic analysis/manipulation   
+
+**Experimental Evolution Workflow:**   
+1. Populations established (often from single clones)   
+2. Sample of ancestral population is stored -80, as are samples from various time points   
+3. After population propagated for some time, ancestral and derived genotypes compared   
+4. Adaptation can be quantified by measuring changes in fitness: the propensity to leave descendants   
+5. Can create head-to-head competition for resources between ancestral and derived populations (measure population growth rates)   
+6. Different markers used to distinguish competitors; if asexual, marker serves as proxy for genome and with replicating competitions, it is possible to reliably quantify evolutionary changes in fitness   
+7. Can measure fitness in identical or different environments   
+8. Relative fitness = ratio of realized growth rates of the evolved and ancestral types   
+
+### Dynamics of evolutionary adaptation   
+
+**Random drift**: the change in allele frequency of genotypes in a population that is caused by chance differences in survival and reproduction, as opposed to consistent differences in their fitness   
+**Replicate populations**: two or more populations that started from the same ancestral genotype and were propogated under identical conditions as part of an evolution experiment. By having several replicates in each of several environments, it is possible to distinguish statistically between systematic responses of the populations to a particular environmental feature (temp) and other responses that might reflect the chance effects of mutation and drift.   
+
+* fitness gains are initially rapid but tend to decelerate over time (evolving from region of low fitness to adaptive peak)   
+   + Ex: fitness gain in first 5,000 generations was tenfold greater than between 15,000 and 20,000 generations   
+* amount of time required for beneficial mutation to increase in frequency to most of the population is inversely proportional to its advantage   
+   + Ex: 10% advantage -> 250 generations; 0.1% advantage -> 25,000 generations   
+* Many beneficial mutations are lost by random drift while they are rare; probability a beneficial mutation survives extinction by drift is ~twice its selective advantage   
+   + Ex: 10% advantage -> 5 tries; 0.1% advantage -> 500 tries   
+* Asexual populations are subject to clonal interference   
+   + competition among beneficial mutations that occur in different clones   
+   + substitution of small beneficial mutations is especially affected (delays spread)   
+* More likely more mutations confer small advantages than those that provide large benefits   
+* fitness trajectories are step-like, corresponding to spread of beneficial mutation (little effect on mean fitness until present in substantial fraction)      
+   + Evolutionary adaptation typically occurs through substitution of relatively few mutations that confer large benefits   
+   + Ex: small populations tended to improve by more numerous, but smaller, steps than did large populations (confirmed prevalence of beneficial mutations with small effects in underlying distribution)   
+* Clonal interference   
+   + probability of substitution of given beneficial mutation should decline with increasing pop. size or mu   
+   + as pop size or mu increases, indiv. substitutions should entail larger fitness gains   
+   + rate of fitness improvement should show diminishing returns with increasing supply of beneficial mutations   
+   + spread of beneficial mutation should be slower than otherwise predicted from fitness advantage   
+   + many ben. mu. should become transiently common but later be excluded by interfering mutations   
+   + these dynamics may give rise to "leapfrog" event - most common genotype is genealogically more distantly related to immediately preceding dominant type than earlier dominant type   
+* Divergence in replicate populations -> approaching different local peaks?   
+   + Ex: different genotypes of founders (virus) consistently evolved to different fitness levels   
+   + descendents of one founder might have been 'trapped' in domain of lower peak (i.e. mutatational pathway that led one founder to higher fitness peak might have included maladapted intermediate genotypes)   
+   
+### The genetic bases of evolutionary adaptation   
+
+**Isogenic**: genotypes that have been engineered to be identical, with the exception of one or more mutations of interest   
+**Hithhiking**: the process by which a neutral, or even deleterious, mutation increases in frequency owing to its physical linkage with a beneficial mutation elsewhere in the genome   
+**Epistasis**: any non-additive interaction between two or more mutations at different loci, such that their combined effect on a phenotype deviates from the sum of their individual effects   
+**Serial transfer**: a culture regime in which some proportion of a popluation is periodically diluted into fresh medium, in which the population grows until it exhausts the limited resource and then waits until next transfer cycle. Selection favors rapid exponential growth, as well as ability to respond quickly following transfer into fresh medium    
+**Chemostat**: A device that allows the continuous growth of a bacterial population on a growth-rate-limiting resource. The resource flows into the chemostat at a constant rate; depleted medium and cells are washed out at same rate. The population grows and consumes resource until bacteria reach an equilibrium density at which their growth rate equals the flow rate through vessel.      
+**Porin**: a protein channel across the outer membrane of a Gram-negative bacterium that allows the diffusion of molecules into the periplasm, which is located between the outer and inner membranes.      
+**Stationary phase**: The period in a serial-transfer regime after the limiting resource has been depleted, such that population growth ceases. A population can be kept in this phase indefinitely by never transferring it to fresh medium, and it eventually declines owing to starvation.     
+
+Three steps to elucidate genetic basis for fitness differences:   
+1. Find mutations that were substituted   
+2. Manipulate ancestral and derived alleles to make clones that are isogenic except fo known mutations   
+3. Measure fitness consequences of thos mutations in relevant environments   
+
+(steps 2 and 3 address hithhiking confusion, especially important in asexual populations where entire genome acts as single linkage group)   
+
+* Viral genomes can be sequenced: interesting find - the extent of parallel changes at nucleotide level across replicate lines that evolved in the same envrionment (presumably beneficial); one study recapitulated nucleootide substitutions that occurred in nature   
+
+* Candidate genes may be more efficient in analyzing selection than sequencing random genes   
+
+* Important mutations are found in global regulatory genes, rather than in genes that might improve single enzymatic steps; substantial adaptation can involve few mutations in regulatory genes (may be responsible for important phenotypic differences)   
+
+* Transposable elements are useful foci for genetic analyses of experimental lines because the mutations they cause are usually easier to find by molecular methods than are point mutations.   
+   
+
+
 ------
 <div id='id-section14'/>
 ### Entry 14:
