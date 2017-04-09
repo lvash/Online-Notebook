@@ -466,6 +466,26 @@ Three steps to elucidate genetic basis for fitness differences:
 
 * Transposable elements are useful foci for genetic analyses of experimental lines because the mutations they cause are usually easier to find by molecular methods than are point mutations.   
    
+### Tradeoffs and the specificity of adaptation   
+
+**Pleiotropy**: the side-effect of a mutation that affects a primary trait or function on a secondary trait or function   
+**Bottleneck**: a severe reduction in population size that causes the loss of genetic variation. The role of random drift is increased, whereas the power of selection is reduced   
+**Auxotrophic**: a mutant that cannot synthesize a required nutrient, such as an amino acid   
+
+If individuals encounter one environment -> tradeoffs promote evolution of specialists   
+mix of environments -> generalist type that has highest average performance (even if suboptimal in any constant environment)   
+
+Mechanisms that can produce tradeoffs:   
+1. antagonistic pleiotropy - mutation that is beneficial in one environment is harmful in the other   
+2. mutation accumulation - mutations accumulate by drift; genes not used in one environment but are useful in another   
+3. independent adaptation of organisms to alternative environments   
+
+AP example: E. coli evolved resistance to phage, but does not perform as well as ancestor in environment that does not have phage   
+MA example: decay rate of unused catabolic functions much faster in mutator lines than in lines with functional DNA repair; rate of decay did not decelerate over time   
+independent adaptation example: lines evolved at a certain temperature did not lose fitness relative to ancestor at nearby temps      
+
+**I'm not quite understanding the difference between AP and MA**   
+
 
 
 ------
