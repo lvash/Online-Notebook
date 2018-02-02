@@ -24,9 +24,9 @@ I am interested in the factors associated with, and potentially causing, the amp
 * [Entry 11: 2017-04-04](#id-section11). Calculating viral copy number
 * [Entry 12: 2017-04-04](#id-section12). Meeting with Dr. Schall
 * [Entry 13: 2017-04-08](#id-section13). Elena and Lenski 2003: Evolution Experiments with microorganisms      
-* [Entry 14:](#id-section14). Barrick and Lenski 2013: Genome dynamics during experimental evolution 
-* [Entry 15: 2018-01-18](#id-section15). Resources for map making
-* [Entry 16:](#id-section16).
+* [Entry 14: 2018-01-18](#id-section14). Resources for map making 
+* [Entry 15: 2018-02-02](#id-section15). Misadventures with qPCR
+* [Entry 16: ](#id-section16).
 * [Entry 17:](#id-section17).
 * [Entry 18:](#id-section18).
 * [Entry 19:](#id-section19).
@@ -490,12 +490,24 @@ independent adaptation example: lines evolved at a certain temperature did not l
 
 ------
 <div id='id-section14'/>
-### Entry 14:
-------
-<div id='id-section15'/>
-### Entry 15: 2018-01-18. Resources for map making   
+### Entry 14: 2018-01-18. Resources for map making
 
 I found a [great website that takes you through map building](http://eriqande.github.io/rep-res-web/lectures/making-maps-with-R.html). My code wouldn't work with the map of Vermont and my points, so [this post](https://stackoverflow.com/questions/10930737/ggmap-with-geom-map-superimposed) suggested adding ```inherit.aes = FALSE``` to the geom_point code, which worked. 
+
+------
+<div id='id-section15'/>
+### Entry 15: 2018-02-02. Misadventures in qPCR    
+
+I have been having trouble with quantitative PCR for the past couple of months, so I figured I would document them so history won't repeat itself later. 
+
+**April - May 2017:** assay working, no problems - tested 220 samples   
+**November 2017:** when running same assay, with same primers, everything amplified (even negatives) with weird melt curves   
+* Test one: used new water - same problem   
+* Test two: ordered new primers and used those; no negatives amplified. good to go.   
+**January 2018:** used the new primers with another set of samples, negatives amplified, weird melt curves   
+* Test one: used new water with different samples - same problem (negatives amplify late, weird melt curves)   
+* Possible tests: calibrate qPCR machine, change primer concentrations (primer dimers? perhaps lower from .25uL per reaction)   
+
 ------
 <div id='id-section16'/>
 ### Entry 16:
