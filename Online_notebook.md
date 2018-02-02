@@ -542,6 +542,7 @@ I have been having trouble with quantitative PCR for the past couple of months, 
 **Throughout semester:**   
 * Continue DNA extractions and qPCR of 2016 samples   
 * Start 2017 samples to determine which have ranavirus and which do not   
+* Work on Liatris analyses/manuscript   
 
 **End of March:** 
 * Have IACUC permits approved   
