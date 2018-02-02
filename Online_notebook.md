@@ -490,6 +490,7 @@ independent adaptation example: lines evolved at a certain temperature did not l
 
 ------
 <div id='id-section14'/>
+
 ### Entry 14: 2018-01-18. Resources for map making
 
 I found a [great website that takes you through map building](http://eriqande.github.io/rep-res-web/lectures/making-maps-with-R.html). My code wouldn't work with the map of Vermont and my points, so [this post](https://stackoverflow.com/questions/10930737/ggmap-with-geom-map-superimposed) suggested adding ```inherit.aes = FALSE``` to the geom_point code, which worked. 
@@ -535,104 +536,138 @@ I have been having trouble with quantitative PCR for the past couple of months, 
 
 ------
 <div id='id-section17'/>
+
 ### Entry 17:
 ------
 <div id='id-section18'/>
+
 ### Entry 18:
 ------
 <div id='id-section19'/>
+
 ### Entry 19:
 ------
 <div id='id-section20'/>
+
 ### Entry 20:
 ------
 <div id='id-section21'/>
+
 ### Entry 21:
 ------
 <div id='id-section22'/>
+
 ### Entry 22:
 ------
 <div id='id-section23'/>
+
 ### Entry 23:
 ------
 <div id='id-section24'/>
+
 ### Entry 24:
 ------
 <div id='id-section25'/>
+
 ### Entry 25:
 ------
 <div id='id-section26'/>
+
 ### Entry 26:
 ------
 <div id='id-section27'/>
+
 ### Entry 27:
 ------
 <div id='id-section28'/>
+
 ### Entry 28:
 ------
 <div id='id-section29'/>
+
 ### Entry 29:
 ------
 <div id='id-section30'/>
+
 ### Entry 30:
 ------
 <div id='id-section31'/>
+
 ### Entry 31:
 ------
 <div id='id-section32'/>
+
 ### Entry 32:
 ------
 <div id='id-section33'/>
+
 ### Entry 33:
 ------
 <div id='id-section34'/>
+
 ### Entry 34:
 ------
 <div id='id-section35'/>
+
 ### Entry 35:
 ------
 <div id='id-section36'/>
+
 ### Entry 36:
 ------
 <div id='id-section37'/>
+
 ### Entry 37:
 ------
 <div id='id-section38'/>
+
 ### Entry 38:
 ------
 <div id='id-section39'/>
+
 ### Entry 39:
 ------
 <div id='id-section40'/>
+
 ### Entry 40:
 ------
 <div id='id-section41'/>
+
 ### Entry 41:
 ------
 <div id='id-section42'/>
+
 ### Entry 42:
 ------
 <div id='id-section43'/>
+
 ### Entry 43:
 ------
 <div id='id-section44'/>
+
 ### Entry 44:
 ------
 <div id='id-section45'/>
+
 ### Entry 45:
 ------
 <div id='id-section46'/>
+
 ### Entry 46:
 ------
 <div id='id-section47'/>
+
 ### Entry 47:
 ------
 <div id='id-section48'/>
+
 ### Entry 48:
 ------
 <div id='id-section49'/>
+
 ### Entry 49:
 ------
 <div id='id-section50'/>
+
 ### Entry 50:
 
