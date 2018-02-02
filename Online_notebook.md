@@ -496,7 +496,8 @@ I found a [great website that takes you through map building](http://eriqande.gi
 
 ------
 <div id='id-section15'/>
-### Entry 15: 2018-02-02. Misadventures in qPCR    
+   
+### Entry 15: 2018-02-02. Misadventures with qPCR    
 
 I have been having trouble with quantitative PCR for the past couple of months, so I figured I would document them so history won't repeat itself later. 
 
@@ -504,6 +505,7 @@ I have been having trouble with quantitative PCR for the past couple of months, 
 **November 2017:** when running same assay, with same primers, everything amplified (even negatives) with weird melt curves   
 * Test one: used new water - same problem   
 * Test two: ordered new primers and used those; no negatives amplified. good to go.   
+
 **January 2018:** used the new primers with another set of samples, negatives amplified, weird melt curves   
 * Test one: used new water with different samples - same problem (negatives amplify late, weird melt curves)   
 * Possible tests: calibrate qPCR machine, change primer concentrations (primer dimers? perhaps lower from .25uL per reaction)   
