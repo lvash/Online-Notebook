@@ -508,7 +508,10 @@ I have been having trouble with quantitative PCR for the past couple of months, 
 
 **January 2018:** used the new primers with another set of samples, negatives amplified, weird melt curves   
 * Test one: used new water with different samples - same problem (negatives amplify late, weird melt curves)   
-* Possible tests: calibrate qPCR machine, change primer concentrations (primer dimers? perhaps lower from .25uL per reaction)   
+* Possible tests: 
+   + calibrate qPCR machine   
+   + change primer concentrations (primer dimers? perhaps lower from .25uL per reaction)   
+   + Contact Bryan (need sequences first, emailed Jim to see if they have those)
 
 ------
 <div id='id-section16'/>
