@@ -26,7 +26,7 @@ I am interested in the factors associated with, and potentially causing, the amp
 * [Entry 13: 2017-04-08](#id-section13). Elena and Lenski 2003: Evolution Experiments with microorganisms      
 * [Entry 14: 2018-01-18](#id-section14). Resources for map making 
 * [Entry 15: 2018-02-02](#id-section15). Misadventures with qPCR
-* [Entry 16: ](#id-section16).
+* [Entry 16: 2018-02-02](#id-section16). Setting up a common garden experiment   
 * [Entry 17:](#id-section17).
 * [Entry 18:](#id-section18).
 * [Entry 19:](#id-section19).
@@ -515,7 +515,24 @@ I have been having trouble with quantitative PCR for the past couple of months, 
 
 ------
 <div id='id-section16'/>
-### Entry 16:
+
+### Entry 16: 2018-02-02. Setting up a common garden experiment  
+
+**Idea:** Teasing apart resistance/tolerance to ranavirus in Wood Frog tadpoles. Does previous exposure to the disease influence either? Do genetic characteristics influence either? Pathogen defense can be divided into two conceptually different components: resistance and tolerance. Resistance is defined as the ability to limit parasite burden, while tolerance is the ability to limit the disease severity induced by a given parasite burden. I want to collect 4 egg masses from 10 Wood Frog (*Lithobates sylvaticus*) populations, with 5 populations from sites where ranavirus has been recorded in the past two years and 5 where the virus has not been recorded. Then, I will experimentally infect them with FV-3.  Every day, survival will be monitored, symptoms will be ‘scored,’ and dead individuals will be collected. RNA will be used for RNA-seq analysis and DNA will be used to quantify the infection using quantitative PCR methods. Using the qPCR viral load data and the symptom scoring (making it a continuous variable), I will be able to tease apart which individuals are more tolerant, resistant, or both. If funding permits, I would use the RNA-seq data to observe differences in gene expression. 
+
+**Steps:**   
+1.) IACUC permit: major amendment to existing protocol, meet with Ruth, submit   
+2.) Determine and ask permission for sites with Wood Frog egg masses/tadpoles
+3.) Scientific collection permit (could be done before step 2, send sites after)
+4.) eDNA collection and testing (end of March, or after amphibian migration)
+5.) Collect egg masses - 4 from each population (April)
+6.) When eggs hatch, separate tadpoles into separate containers 
+7.) Rear until at Gosner Stage X
+8.) Experimentally infect 
+9.) Collect samples/data
+10.) Test samples 
+11.) Data analysis
+
 ------
 <div id='id-section17'/>
 ### Entry 17:
