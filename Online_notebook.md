@@ -28,7 +28,7 @@ I am interested in the factors associated with, and potentially causing, the amp
 * [Entry 15: 2018-02-02](#id-section15). Misadventures with qPCR
 * [Entry 16: 2018-02-02](#id-section16). Setting up a common garden experiment   
 * [Entry 17: 2018-02-02](#id-section17). Spring/Summer 2018 Semester Goals
-* [Entry 18:](#id-section18).
+* [Entry 18: 2018-02-02](#id-section18). Potential Undergrad Projects
 * [Entry 19:](#id-section19).
 * [Entry 20:](#id-section20).
 * [Entry 21:](#id-section21).
@@ -570,7 +570,13 @@ I have been having trouble with quantitative PCR for the past couple of months, 
 ------
 <div id='id-section18'/>
 
-### Entry 18:
+### Entry 18: 2018-02-02. Potential Undergrad Projects   
+* PCR positive samples (Mao primers) - sequence and phylogenetic analysis   
+* Pesticides in water - collect water samples this summer (soil?)   
+* eDNA analysis   
+* Co-infection with chytrid
+* Swab testing   
+
 ------
 <div id='id-section19'/>
 
