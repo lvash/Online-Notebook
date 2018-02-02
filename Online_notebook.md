@@ -27,7 +27,7 @@ I am interested in the factors associated with, and potentially causing, the amp
 * [Entry 14: 2018-01-18](#id-section14). Resources for map making 
 * [Entry 15: 2018-02-02](#id-section15). Misadventures with qPCR
 * [Entry 16: 2018-02-02](#id-section16). Setting up a common garden experiment   
-* [Entry 17:](#id-section17).
+* [Entry 17: 2018-02-02](#id-section17). Spring 2018 Semester Goals
 * [Entry 18:](#id-section18).
 * [Entry 19:](#id-section19).
 * [Entry 20:](#id-section20).
@@ -537,7 +537,36 @@ I have been having trouble with quantitative PCR for the past couple of months, 
 ------
 <div id='id-section17'/>
 
-### Entry 17:
+### Entry 17: 2018-02-02. Spring/Summer 2018 Semester Goals   
+
+**Throughout semester:**   
+* Continue DNA extractions and qPCR of 2016 samples   
+* Start 2017 samples to determine which have ranavirus and which do not   
+
+**End of March:** 
+* Have IACUC permits approved   
+* Have scientific collection permit in progress (or completed)   
+* Collect and test eDNA (Norwich? Huntington?)    
+
+**Mid-April:**   
+* Keep monitoring sites with potential for Wood Frog egg masses   
+* Collect when there are enough   
+
+**May:**   
+* Have Liatris analysis and manuscript completed   
+* Have tadpoles in lab - water changes and feeding scheudles
+* First week of field work   
+
+**June:** 
+* Start experiment (2 weeks)   
+
+**July:**   
+* Second week of field work   
+
+**August:**   
+* Third and final week of field work   
+
+
 ------
 <div id='id-section18'/>
 
