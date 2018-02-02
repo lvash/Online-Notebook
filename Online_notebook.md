@@ -511,7 +511,7 @@ I have been having trouble with quantitative PCR for the past couple of months, 
 * Possible tests: 
    + calibrate qPCR machine   
    + change primer concentrations (primer dimers? perhaps lower from .25uL per reaction)   
-   + Contact Bryan (need sequences first, emailed Jim to see if they have those)
+   + Contact Bryan, mentioned [restriction sites](http://blackgrouseresearch.jyu.fi/restriction.html) (need sequences first, emailed Jim to see if they have those)
 
 ------
 <div id='id-section16'/>
