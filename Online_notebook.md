@@ -29,7 +29,7 @@ I am interested in the factors associated with, and potentially causing, the amp
 * [Entry 16: 2018-02-02](#id-section16). Setting up a common garden experiment   
 * [Entry 17: 2018-02-02](#id-section17). Spring/Summer 2018 Semester Goals
 * [Entry 18: 2018-02-02](#id-section18). Potential Undergrad Projects
-* [Entry 19:](#id-section19).
+* [Entry 19: 2018-02-12](#id-section19). Updating R - problems with rJava package and solutions
 * [Entry 20:](#id-section20).
 * [Entry 21:](#id-section21).
 * [Entry 22:](#id-section22).
@@ -581,7 +581,78 @@ I have been having trouble with quantitative PCR for the past couple of months, 
 ------
 <div id='id-section19'/>
 
-### Entry 19:
+### Entry 19: 2018-02-12. Updating R - problems with rJava package and solutions   
+
+### Updating R   
+I updated R to the latest version 3.4.3 "Kite-Eating Tree." Using [this R-bloggers post](https://www.r-bloggers.com/updating-r/) I was able to automatically load all of my previous packages with this code: 
+```
+## Set where you want to save list of packages to
+list_dir <- '/Users/lvash/Desktop'
+
+## Get the list of installed packages
+installed <- dir(.libPaths())
+
+## Save the list for later use
+save(installed, file = file.path(list_dir, paste0(Sys.Date(), '-installed.Rdata')))
+
+## Explore the list
+head(installed)
+
+length(installed)
+
+## [1] 352
+
+#### After Installing new R version:
+
+## Same place where it was saved
+list_dir <- '/Users/lvash/Desktop'
+
+## Find the corresponding Rdata files
+previous <- dir(path = list_dir, pattern = 'installed.Rdata')
+
+## Load the latest one
+load(file.path(list_dir, previous[length(previous)]))
+
+## Just checking it, make sure it looks right
+head(installed)
+
+current <- dir(.libPaths())
+
+## For Bioconductor and CRAN packages
+source('http://bioconductor.org/biocLite.R')
+biocLite(installed[!installed %in% current])
+
+## Check which packages are missing
+current_post_installation <- dir(.libPaths())
+installed[!installed %in% current_post_installation]
+
+## Some need to be installed through github
+library('devtools')
+install_github("thomasp85/patchwork")
+
+```
+### rJava package not loading
+
+1) Updated Java to version 8
+* Make sure it's the [Java SE development kit](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
+2) Set Java Home ```Sys.setenv(JAVA_HOME= '/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre')```
+* Check not set to null: ```options("java.home")```
+* Another option to set java home ```Options("java.home"="/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre")```
+* To check java home: type in Terminal ```echo $JAVA_HOME```
+* Was still getting an error so typed in ``` sudo ln -sf $(/usr/libexec/java_home)/jre/lib/server/libjvm.dylib /usr/local/lib``` thanks to [this Stack Overflow post comment](https://stackoverflow.com/questions/30738974/rjava-load-error-in-rstudio-r-after-upgrading-to-osx-yosemite)
+
+### Copying maxent.jar to dismo package
+
+```.libPaths()``` tells you where your library is   
+In Terminal: 
+```
+cd ~/Desktop
+cp maxent.jar /Library/Frameworks/R.framework/Versions/3.4/Resources/library/dismo/java
+
+```
+
+
+
 ------
 <div id='id-section20'/>
 
