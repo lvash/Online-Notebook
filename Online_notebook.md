@@ -633,6 +633,17 @@ install_github("thomasp85/patchwork")
 ```
 ### rJava package not loading
 
+When I tried to load the rJava library, I received this error:   
+```
+Error: package or namespace load failed for ‘rJava’:
+ .onLoad failed in loadNamespace() for 'rJava', details:
+  call: dyn.load(file, DLLpath = DLLpath, ...)
+  error: unable to load shared object '/Library/Frameworks/R.framework/Versions/3.4/Resources/library/rJava/libs/rJava.so':
+  dlopen(/Library/Frameworks/R.framework/Versions/3.4/Resources/library/rJava/libs/rJava.so, 6): Library not loaded: @rpath/libjvm.dylib
+  Referenced from: /Library/Frameworks/R.framework/Versions/3.4/Resources/library/rJava/libs/rJava.so
+  Reason: image not found
+```
+**After hours of troubleshooting, these steps worked:**   
 1) Updated Java to version 8
 * Make sure it's the [Java SE development kit](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
 2) Set Java Home ```Sys.setenv(JAVA_HOME= '/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre')```
@@ -643,8 +654,9 @@ install_github("thomasp85/patchwork")
 
 ### Copying maxent.jar to dismo package
 
-```.libPaths()``` tells you where your library is   
-In Terminal: 
+* ```.libPaths()``` tells you where your library is   
+
+* In Terminal: 
 ```
 cd ~/Desktop
 cp maxent.jar /Library/Frameworks/R.framework/Versions/3.4/Resources/library/dismo/java
