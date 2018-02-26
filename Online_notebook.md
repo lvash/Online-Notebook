@@ -513,6 +513,14 @@ I have been having trouble with quantitative PCR for the past couple of months, 
    + calibrate qPCR machine   
    + change primer concentrations (primer dimers? perhaps lower from .25uL per reaction)   
    + Contact Bryan, mentioned [restriction sites](http://blackgrouseresearch.jyu.fi/restriction.html) (need sequences first, emailed Jim to see if they have those)
+   
+**February 2018:** 
+* Calibrated the qPCR machine - still negatives are amplifying  
+* Moved to a different lab to set up qPCR - used new pipettes, tips, new bottle of nuclease free water - still negatives are amplifying 
+* Possible next steps: 
+   + Run a plate with just water to see if machine is contaminated (use the Pespeni machine?)  
+   + Ordered new SYBR green universal mix and primers AGAIN  
+   + Run a gel or sequence to see what is amplifying
 
 ------
 <div id='id-section16'/>
