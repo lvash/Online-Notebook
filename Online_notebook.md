@@ -521,6 +521,12 @@ I have been having trouble with quantitative PCR for the past couple of months, 
    + Run a plate with just water to see if machine is contaminated (use the Pespeni machine?)  
    + Ordered new SYBR green universal mix and primers AGAIN  
    + Run a gel or sequence to see what is amplifying
+* February 27: ran a plate with just water - no amplification  
+
+**March 2018:**   
+* Idea: freezing my primers at -20 is what is causing negative amplification
+   + Evidence: I did not freeze my primers last summer when tests worked, I did not freeze them for Run 3 because I had just suspended them (no negative amplification), after I used the frozen primers, I was seeing negative amplification  
+* March 1: Ran a qPCR plate with primers that were just made; resuspended primers will not be put in the freezer (instead will be stored in the fridge), so we will see if that is the problem.   
 
 ------
 <div id='id-section16'/>
@@ -581,10 +587,11 @@ I have been having trouble with quantitative PCR for the past couple of months, 
 
 ### Entry 18: 2018-02-02. Potential Undergrad Projects   
 * PCR positive samples (Mao primers) - sequence and phylogenetic analysis   
-* Pesticides in water - collect water samples this summer (soil?)   
+* Pesticides in water - collect water samples this summer    
 * eDNA analysis   
 * Co-infection with chytrid
-* Swab testing   
+* Swab testing (BSal)     
+* Do leeches have ranavirus?
 
 ------
 <div id='id-section19'/>
