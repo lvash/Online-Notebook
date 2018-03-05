@@ -30,7 +30,7 @@ I am interested in the factors associated with, and potentially causing, the amp
 * [Entry 17: 2018-02-02](#id-section17). Spring/Summer 2018 Semester Goals
 * [Entry 18: 2018-02-02](#id-section18). Potential Undergrad Projects
 * [Entry 19: 2018-02-12](#id-section19). Updating R - problems with rJava package and solutions
-* [Entry 20:](#id-section20).
+* [Entry 20: 2018-03-05](#id-section20). Creating a figure for Liatris manuscript
 * [Entry 21:](#id-section21).
 * [Entry 22:](#id-section22).
 * [Entry 23:](#id-section23).
@@ -521,12 +521,14 @@ I have been having trouble with quantitative PCR for the past couple of months, 
    + Run a plate with just water to see if machine is contaminated (use the Pespeni machine?)  
    + Ordered new SYBR green universal mix and primers AGAIN  
    + Run a gel or sequence to see what is amplifying
-* February 27: ran a plate with just water - no amplification  
+* February 27: ran a plate with just water - no amplification (so the machine is not contaminated)     
 
 **March 2018:**   
 * Idea: freezing my primers at -20 is what is causing negative amplification
    + Evidence: I did not freeze my primers last summer when tests worked, I did not freeze them for Run 3 because I had just suspended them (no negative amplification), after I used the frozen primers, I was seeing negative amplification  
-* March 1: Ran a qPCR plate with primers that were just made; resuspended primers will not be put in the freezer (instead will be stored in the fridge), so we will see if that is the problem.   
+* March 1: Ran a qPCR plate with primers that were just made; resuspended primers will not be put in the freezer (instead will be stored in the fridge), so we will see if that is the problem. **Negatives still amplified**   
+* Ran a qPCR plate with same reagents and primers in the Pespeni qPCR machine: **NO NEGATIVE AMPLIFICATION!** 
+
 
 ------
 <div id='id-section16'/>
@@ -679,11 +681,33 @@ cp maxent.jar /Library/Frameworks/R.framework/Versions/3.4/Resources/library/dis
 ```
 
 
-
 ------
 <div id='id-section20'/>
 
-### Entry 20:
+### Entry 20: 2018-03-05. Creating a figure for Liatris manuscript   
+
+Idea: want to make a plot where we have points indicating the year where Liatris was last observed and another point later in the timeline where it was no longer observed (extirpated), and they would be connected by a line and ordered according to a continuous variable
+
+I found [this website](https://stackoverflow.com/questions/40228289/plot-horizontal-lines-for-pairwise-points-in-r) that helped me make this code: 
+
+```
+library(TeachingDemos)
+z<-char2seed("Liatris", set=F)
+set.seed(z)
+
+## Create a fake dataset
+samplesize<-10
+#TempNorm<-rnorm(n=samplesize, mean=24, sd=5) #for continuous points
+TempSeq<-sample(seq(from=19, to=36), size =samplesize, replace=T)
+data<-data.frame(temp= TempSeq , historicDate = sample(seq(from=1822,to=1965), size=samplesize, replace=T), presentDate= sample(seq(from=1995,to=2016), size=samplesize, replace=T))
+
+## Plot
+plot(x=data$historicDate, data$temp, xlim=c(min(data$historicDate), max(data$presentDate)), pch=16, col=rgb(0,0,1,0.5), xlab='Year', ylab='Temperature')
+points(data$presentDate, data$temp, pch=16, col=rgb(1,0,0,0.5))
+segments(x0=data$historicDate, y0=data$temp, x1=data$presentDate, col='goldenrod')
+
+```
+
 ------
 <div id='id-section21'/>
 
