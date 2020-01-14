@@ -635,9 +635,11 @@ head(installed)
 
 current <- dir(.libPaths())
 
-## For Bioconductor and CRAN packages
-source('http://bioconductor.org/biocLite.R')
-biocLite(installed[!installed %in% current])
+## Install Bioconductor and then CRAN packages through BiocManager
+if (!requireNamespace("BiocManager", quietly = TRUE))
+    install.packages("BiocManager")
+BiocManager::install(version = "3.10")
+BiocManager::install(installed[!installed %in% current])
 
 ## Check which packages are missing
 current_post_installation <- dir(.libPaths())
