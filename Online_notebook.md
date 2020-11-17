@@ -669,7 +669,15 @@ Error: package or namespace load failed for ‘rJava’:
 * Check not set to null: ```options("java.home")```
 * Another option to set java home ```Options("java.home"="/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre")```
 * To check java home: type in Terminal ```echo $JAVA_HOME```
-* Was still getting an error so typed in ``` sudo ln -sf $(/usr/libexec/java_home)/jre/lib/server/libjvm.dylib /usr/local/lib``` thanks to [this Stack Overflow post comment](https://stackoverflow.com/questions/30738974/rjava-load-error-in-rstudio-r-after-upgrading-to-osx-yosemite)
+* Was still getting an error so typed in ``` sudo ln -sf $(/usr/libexec/java_home)/jre/lib/server/libjvm.dylib /usr/local/lib``` thanks to [this Stack Overflow post comment](https://stackoverflow.com/questions/30738974/rjava-load-error-in-rstudio-r-after-upgrading-to-osx-yosemite)   
+
+**Updated 11-17-2020**
+1) Updated Java to version 15 and changed JAVA_HOME in RStudio, but it still didn't work (error: "To open 'RStudio' you need to install the legacy Java SE 6 runtime")    
+2) I found this [page](https://community.rstudio.com/t/rstudio-crashing-with-tabulizer-need-to-install-the-legacy-java-se-6-runtime/87937/3) which says RStudio doesn't work with versions after Java 11.  
+3) So, I installed [Java SE 11](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) and changed JAVA_HOME both ways: 
+* ```Sys.setenv(JAVA_HOME='/Library/Java/JavaVirtualMachines/jdk-11.0.9.jdk/Contents/Home')```  
+* ```options('java.home'='/Library/Java/JavaVirtualMachines/jdk-11.0.9.jdk/Contents/Home')``` 
+* ```options("java.home")``` to check it is no longer NULL
 
 ### Copying maxent.jar to dismo package
 
