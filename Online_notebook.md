@@ -679,6 +679,24 @@ Error: package or namespace load failed for ‘rJava’:
 * ```options('java.home'='/Library/Java/JavaVirtualMachines/jdk-11.0.9.jdk/Contents/Home')``` 
 * ```options("java.home")``` to check it is no longer NULL
 
+When I logged on later, I still had the error message "To open 'RStudio' you need to install the legacy Java SE 6 runtime"  
+* Tried downloading Java SE 6, but it wouldn't allow me to install on my hard drive because a newer version was detected  
+* Deleting my previous Oracle and jdk installations (via Terminal) didn't work
+* Found and copy and pasted the Terminal code from this [page](https://apple.stackexchange.com/questions/375973/java-uninstalled-but-still-cannot-install-java-6-macos/376017#376017?newreg=b1aee36e212946dea95bc6f2cef4484d) 
+* Didn't change anything in thd code (but had a Java SE 6 dmg on my desktop) and it worked. 
+* I re-installed Java jdk 11 and the code seems to be working
+
+```
+t=${TMPDIR:-/tmp}/java
+hdiutil mount /path/to/javaforosx.dmg
+pkgutil --expand /Volumes/Java\ for\ macOS\ 2017-001/JavaForOSX.pkg "$t"
+hdiutil unmount /Volumes/Java\ for\ macOS\ 2017-001
+sed -i '' 's/return false/return true/g' "$t"/Distribution
+pkgutil --flatten "$t" ~/Desktop/Java.pkg
+rm -rf "$t"
+open ~/Desktop/Java.pkg
+```
+
 ### Copying maxent.jar to dismo package
 
 * ```.libPaths()``` tells you where your library is   
