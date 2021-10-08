@@ -696,6 +696,16 @@ pkgutil --flatten "$t" ~/Desktop/Java.pkg
 rm -rf "$t"
 open ~/Desktop/Java.pkg
 ```
+**Updated 10-08-2021**
+Followed original instructions (with slight modifications), and it still works:
+1) Updated Java to version 8
+* Make sure it's the [Java SE development kit](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
+2) Check the pathway in Terminal: ```/usr/libexec/java_home -V```
+3) Set Java Home in R ```options("java.home"="/Library/Java/JavaVirtualMachines/jdk1.8.0_301.jdk/Contents/Home/jre")```
+* Check not set to null: ```options("java.home")```
+* If still not showing/getting an error, typed in ``` sudo ln -sf $(/usr/libexec/java_home)/jre/lib/server/libjvm.dylib /usr/local/lib``` thanks to [this Stack Overflow post comment](https://stackoverflow.com/questions/30738974/rjava-load-error-in-rstudio-r-after-upgrading-to-osx-yosemite)   
+* Restarted R-Studio
+
 
 ### Copying maxent.jar to dismo package
 
